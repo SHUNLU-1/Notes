@@ -14,25 +14,29 @@ class Hog_descriptor():
         self.img = img * 255
         self.cell_size = cell_size
         self.bin_size = bin_size
-        self.angle_unit = 360 / self.bin_size
+        self.angle_unit = int(360 / self.bin_size)
         assert type(self.bin_size) == int, "bin_size should be integer,"
         assert type(self.cell_size) == int, "cell_size should be integer,"
         assert type(self.angle_unit) == int, "bin_size should be divisible by 360"
 
     def extract(self):
         height, width = self.img.shape
-        """计算每个像素的梯度"""
+        """setp1:计算每个像素的梯度,使用sobel算子分别对x,y方向进行梯度计算,然后解算梯度和梯度方向"""
         gradient_magnitude, gradient_angle = self.global_gradient()
         gradient_magnitude = abs(gradient_magnitude)
-        cell_gradient_vector = np.zeros((height / self.cell_size, width / self.cell_size, self.bin_size))
-        """遍历每一个像素,统计每一个cell中的梯度和梯度方向"""
+        cell_gradient_vector = np.zeros((int(height / self.cell_size), int(width/ self.cell_size), self.bin_size))
+        """step2:遍历每一个cell,统计每一个cell中的梯度和梯度方向"""
         for i in range(cell_gradient_vector.shape[0]):
             for j in range(cell_gradient_vector.shape[1]):
+                """分成cell_size*cell_size"""
                 cell_magnitude = gradient_magnitude[i * self.cell_size:(i + 1) * self.cell_size,
                                  j * self.cell_size:(j + 1) * self.cell_size]
                 cell_angle = gradient_angle[i * self.cell_size:(i + 1) * self.cell_size,
                              j * self.cell_size:(j + 1) * self.cell_size]
+                """为cell构建直方图"""
                 cell_gradient_vector[i][j] = self.cell_gradient(cell_magnitude, cell_angle)
+        
+        """step3:获得HOG描述子"""
         hog_image = self.render_gradient(np.zeros([height, width]), cell_gradient_vector)
         hog_vector = []
         """统计Block的梯度信息"""
@@ -70,12 +74,14 @@ class Hog_descriptor():
                 orientation_centers[min_angle] += (gradient_strength * (1 - (mod / self.angle_unit)))
                 orientation_centers[max_angle] += (gradient_strength * (mod / self.angle_unit))
         return orientation_centers
-
+        
+    """360/cell_size为一份,idx在那一块,mod是权重"""
     def get_closest_bins(self, gradient_angle):
         idx = int(gradient_angle / self.angle_unit)
         mod = gradient_angle % self.angle_unit
         return idx, (idx + 1) % self.bin_size, mod
-
+    
+    """画出梯度图"""
     def render_gradient(self, image, cell_gradient):
         cell_width = self.cell_size / 2
         max_mag = np.array(cell_gradient).max()
@@ -118,7 +124,7 @@ class Hog_descriptor():
         plt.imshow(hog_image, cmap=plt.cm.gray)
         plt.show()
 
-img = cv2.imread('./image/1.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('/home/amber/code/Notes/machine_learning/SVM/image/2.png', cv2.IMREAD_GRAYSCALE)
 hog = Hog_descriptor(img, cell_size=8, bin_size=8)
 vector, image = hog.extract()
 print(np.array(vector).shape)
