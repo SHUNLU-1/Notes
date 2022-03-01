@@ -5,17 +5,20 @@ from skimage.feature import hog
 from skimage import data, exposure
 
 image = cv2.imread('/home/amber/code/Notes/machine_learning/SVM/image/2.png', 0)     
-image = np.float32(image) / 255.0       # 归一化
+"""归一化"""
+image = np.float32(image) / 255.0       
+
 # cv2.imshow("normalization",image)
 # cv2.waitKey()
 
+"""multichannel=True是针对3通道彩色"""
 fd, hog_image = hog(image,
                     orientations=8,
                     pixels_per_cell=(16, 16),
                     cells_per_block=(1, 1),
                     visualize=True,
-                    multichannel=False) # multichannel=True是针对3通道彩色；
-
+                    multichannel=False) 
+                    
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 6), sharex=True, sharey=True)
 ax1.axis('off')
 ax1.imshow(image, cmap=plt.cm.gray)

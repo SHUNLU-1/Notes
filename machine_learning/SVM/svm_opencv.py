@@ -22,7 +22,8 @@ lable = np.array([[0],[0],[0],[0],[0],[1],[1],[1],[1],[1]])
 所有的数据必须一一对应的lable
 监督学习 0负样本1正样本
 """ 
-data = np.vstack(rand1,rand2)
+"""np.vstack拼接两个矩阵"""
+data = np.vstack((rand1,rand2))
 data = np.array(data,dtype='float32')
  
 """step2:训练"""
