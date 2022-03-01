@@ -14,7 +14,7 @@
 
 - Clustering
 - minist-Classification
-- HOG+SVM[HOG+SVM原理](https://github.com/SHUNLU-1/Notes/tree/main/machine_learning/SVM)
+- SVM----->  [HOG+SVM原理](https://github.com/SHUNLU-1/Notes/tree/main/machine_learning/SVM)
 
 ## python
  
