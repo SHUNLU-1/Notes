@@ -1,0 +1,1 @@
+ccache g++   -O3 -DPATH="\"/home/ubuntu/vscode/Eigen_learn/1\"" -DLinux -O3 -DNDEBUG   CMakeFiles/eigen.dir/StorageOrder.cpp.o  -o eigen 

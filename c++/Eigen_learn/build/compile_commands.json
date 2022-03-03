@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ubuntu/vscode/Eigen_learn/1/build",
+  "command": "g++   -I/usr/local/include/eigen3   -O3 -DPATH=\"\\\"/home/ubuntu/vscode/Eigen_learn/1\\\"\" -DLinux -O3 -DNDEBUG   -o CMakeFiles/eigen.dir/StorageOrder.cpp.o -c /home/ubuntu/vscode/Eigen_learn/1/StorageOrder.cpp",
+  "file": "/home/ubuntu/vscode/Eigen_learn/1/StorageOrder.cpp"
+}
+]
