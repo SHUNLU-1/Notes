@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmyset.a  CMakeFiles/myset.dir/myset.cpp.o
+/usr/bin/ranlib libmyset.a

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/CalculateSqrt.dir/hello.c.o  -o CalculateSqrt 
