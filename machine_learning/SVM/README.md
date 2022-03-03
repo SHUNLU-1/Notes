@@ -132,5 +132,171 @@ Block 归一化 HOG特征将8×8的一个局部区域作为一个cell，再以2�
 + 对噪声比较敏感
 
 ## 二、SVM原理
+### 1、了解SVM
+
+**支持向量机**，因其英文名为support vector machine，故一般简称SVM，通俗来讲，它是一种二类分类模型，其基本模型定义为特征空间上的间隔最大的线性分类器，其学习策略便是间隔最大化，最终可转化为一个凸二次规划问题的求解。
+ 
+### 1.1、分类标准的起源：Logistic回归
+
+**线性分类器：**给定一些数据点，它们分别属于两个不同的类，现在要找到一个线性分类器把这些数据分成两类。如果用x表示数据点，用y表示类别（y可以取1或者-1，分别代表两个不同的类），一个线性分类器的学习目标便是要在n维的数据空间中找到一个超平面（hyper plane），这个超平面的方程可以表示为（w 是垂直于超平面的一个向量，定义为法向量，而中$w^T$的T代表转置）：
+![](https://img-blog.csdn.net/20131107201104906)
+
+Logistic回归目的是从特征学习出一个0/1分类模型，而这个模型是将特性的线性组合作为自变量，由于自变量的取值范围是负无穷到正无穷。因此，使用logistic函数（或称作sigmoid函数）将自变量映射到(0,1)上，映射后的值被认为是属于y=1的概率。
+
+假设函数![](https://img-blog.csdnimg.cn/img_convert/d8a4be6614d6ebc09db2ec89a45d03d1.png)其中x是n维特征向量，函数g就是logistic函数。而![](https://img-blog.csdnimg.cn/img_convert/3679fe3a60bbdbb15f528a8f651e2524.png)的图像是
+
+![](https://img-blog.csdnimg.cn/img_convert/b4f43c5c5e56d0fbcc16e0e0577a13bf.png)
+
+可以看到，将无穷映射到了(0,1)。而假设函数就是特征属于y=1的概率。
+
+![](https://img-blog.csdnimg.cn/img_convert/4ed31212fe6ceb6982bb559fb964f05b.png)
+
+从而，当我们要判别一个新来的特征属于哪个类时，只需求 $h_{\theta}(x)$ 即可，若大于0.5就是y=1的类，反之属于y=0类。
+
+此外，$h_{\theta}(x)$ 只和 $\theta^Tx$ 有关，$\theta^Tx>0$ ，那么，而 $g(z)$ 只是用来映射，真实的类别决定权还是在于 $\theta^Tx$ 。再者，当 $\theta^Tx>>0$ 时，$h_{\theta}(x)$ =1，反之 $h_{\theta}(x)$ =0。如果我们只从出发，希望模型达到的目标就是让训练数据中y=1的特征，而是y=0的特征。Logistic回归就是要学习得到 $\theta$ ，使得正例的特征远大于0，负例的特征远小于0，而且要在全部训练实例上达到这个目标。
+
+接下来，尝试把logistic回归做个变形。首先，将使用的结果标签y = 0和y = 1替换为y = -1,y = 1，然后将 $\theta^Tx = \theta_0+\theta_1x_1+\theta_2x_2+...+\theta_nx_n(x_0=1)$ 中的替换为 $b$，最后将后面的 $\theta_1x_1+\theta_2x_2+...+\theta_nx_n$ 替换为 $w^Tx$ 。如此，则有了 $\theta^Tx=w^Tx+b$ 。也就是说除了y由y=0变为y=-1外，线性分类函数跟logistic回归的形式化表示 $h_{\theta}(x)=g(\theta^Tx)=g(w^Tx+b)$ 没区别。
+
+进一步，可以将假设函数 $h_{w,b}(x)=g(w^Tx+b)$ 中的 $g(z)$ 做一个简化，将其简单映射到y=-1和y=1上。映射关系如下：![](https://img-blog.csdnimg.cn/img_convert/1edf77c3ca84b0ef7950fab23cf41bf3.png)
+
+### 1.2、线性分类的一个例子
+如下图所示，现在有一个二维平面，平面上有两种不同的数据，分别用圈和叉表示。由于这些数据是线性可分的，所以可以用一条直线将这两类数据分开，这条直线就相当于一个超平面，超平面一边的数据点所对应的y全是-1 ，另一边所对应的y全是1。
+
+![](https://img-blog.csdn.net/20140829134124453)
+
+这个超平面可以用分类函数![](https://img-blog.csdn.net/20131107201211968)表示，当f(x) 等于0的时候，x便是位于超平面上的点，而f(x)大于0的点对应 y=1 的数据点，f(x)小于0的点对应y=-1的点，如下图所示：
+
+![](https://img-blog.csdn.net/20140829134548371)
+
+有的资料上定义特征到结果的输出函数![](https://img-blog.csdn.net/20180514181903580),与这里定义的![](https://img-blog.csdn.net/20131107201211968)实质是一样的。为什么？因为无论是![](https://img-blog.csdn.net/20131120103601656)，还是![](https://img-blog.csdn.net/20131107201211968)，不影响最终优化结果。下文你将看到，当我们转化到优化![](https://img-blog.csdnimg.cn/img_convert/ea1527fd25dba5634147a06d268934be.png)的时候，为了求解方便，会把 $yf(x)$ 令为1，即 $yf(x)$ 是 $y(w^x + b)$ ，还是 $y(w^x - b)$ ，对我们要优化的式子 $max1/||w||$ 已无影响。
+
+### 1.3、函数间隔Functional margin与几何间隔Geometrical margin 
+在超平面 $w*x+b=0$ 确定的情况下，$|w*x+b|$ 能够表示点x到距离超平面的远近，而通过观察 $w*x+b$ 的符号与类标记 $y$ 的符号是否一致可判断分类是否正确，所以，可以用 $(y*(w*x+b))$ 的正负性来判定或表示分类的正确性。于此，我们便引出了函数间隔（functional margin）的概念。
+
+定义函数间隔 $\hat\gamma$（用表示）为：![](https://img-blog.csdn.net/20131107201248921)
+而超平面 $(w，b)$ 关于T中所有样本点 $(xi，yi)$ 的函数间隔最小值（其中，x是特征，y是结果标签，i表示第i个样本），便为超平面 $(w, b)$ 关于训练数据集T的函数间隔：$\hat\gamma=min\hat\gamma_i(i=1,...n)$
+
+但这样定义的函数间隔有问题，即如果成比例的改变 $w$ 和 $b$（如将它们改成 $2w$ 和 $2b$），则函数间隔的值 $f(x)$ 却变成了原来的2倍（虽然此时超平面没有改变），所以只有函数间隔还远远不够。事实上，我们可以对法向量 $w$ 加些约束条件，从而引出真正定义点到超平面的距离--几何间隔（geometrical margin）的概念。
+
+假定对于一个点 $x$ ，令其垂直投影到超平面上的对应点为 $x_0$ ，$w$ 是垂直于超平面的一个法向量，$\gamma$ 为样本 $x$ 到超平面的距离，如下图所示：
+![](https://img-blog.csdnimg.cn/img_convert/e1cc403aa9a3ced1d7b8f377c064a50f.png)
+
+根据平面几何知识，有![](https://img-blog.csdn.net/20131107201720515)
+
+其中 $||w||$ 为w的二阶范数（范数是一个类似于模的表示长度的概念），![](https://img-blog.csdn.net/20131107201720515)是单位向量（一个向量除以它的模称之为单位向量）。
+
+又由于 $x_0$ 是超平面上的点，满足 $f(x_0)=0$，代入超平面的方程 $w^Tx+b-0$，可得 $w^Tx+b-0$，即 $w^Tx=-b$。 随即让此式![](https://img-blog.csdn.net/20131107201720515)的两边同时乘以 $w^T$ ，再根据 $w^Tx=-b$ 和 $w^Tw=||w||^2$，即可算出 $\gamma$： 
+![](https://img-blog.csdn.net/20131107201759093)
+为了得到 $\gamma$ 的绝对值，令 $\gamma$ 乘上对应的类别 $y$，即可得出几何间隔（用![](https://img-blog.csdn.net/20140829135609579)表示）的定义：![](https://img-blog.csdn.net/20131107201919484)
+
+从上述函数间隔和几何间隔的定义可以看出：几何间隔就是函数间隔除以 $||w||$ ，即：![](https://img-blog.csdn.net/20131107201919484) 而且函数间隔 $y*(wx+b) = y*f(x)$ 实际上就是 $|f(x)|$，只是人为定义的一个间隔度量，而几何间隔 $|f(x)|/||w||$ 才是直观上的点到超平面的距离。
+
+### 1.4、最大间隔分类器Maximum Margin Classifier的定义
+对一个数据点进行分类，当超平面离数据点的“间隔”越大，分类的确信度（confidence）也越大。所以，为了使得分类的确信度尽量高，需要让所选择的超平面能够最大化这个“间隔”值。这个间隔就是下图中的Gap的一半。
+
+![](https://img-blog.csdn.net/20140829135959290)
+
+通过由前面的分析可知：函数间隔不适合用来最大化间隔值，因为在超平面固定以后，可以等比例地缩放 $w$ 的长度和 $b$ 的值，这样可以使得 $f(x)=w^Tx+b$ 的值任意大，亦即函数间隔 $\hat\gamma$ 可以在超平面保持不变的情况下被取得任意大。但几何间隔因为除上了 $||w||$ ，使得在缩放 $w$ 和 $b$ 的时候几何间隔 $\hat\gamma$ 的值是不会改变的，它只随着超平面的变动而变动，因此，这是更加合适的一个间隔。换言之，这里要找的最大间隔分类超平面中的“间隔”指的是几何间隔。
+于是最大间隔分类器（maximum margin classifier）的目标函数可以定义为:![](https://img-blog.csdn.net/20131111160612687)
+同时需满足一些条件，根据间隔的定义，有![](https://img-blog.csdnimg.cn/img_convert/59eae9344883860dbf1587a2159c9128.png) 其中，s.t.，即subject to的意思，它导出的是约束条件。
+
+回顾下几何间隔的定义![](https://img-blog.csdn.net/20131107201919484)，可知：如果令函数间隔 $\hat\gamma$ 等于1（之所以令 $\hat\gamma$ 等于1，是为了方便推导和优化，且这样做对目标函数的优化没有影响），则有 $\widetilde{\gamma} = 1 / ||w||$ 且![](https://img-blog.csdn.net/20140829140642940)，从而上述目标函数转化成了![](https://img-blog.csdnimg.cn/img_convert/ea1527fd25dba5634147a06d268934be.png)
+
+相当于在相应的约束条件![](https://img-blog.csdn.net/20140829140642940)下，最大化这个 $1/||w||$ 值，而 $1/||w||$ 便是几何间隔 $\widetilde{\gamma}$。
+
+如下图所示，中间的实线便是寻找到的最优超平面（Optimal Hyper Plane），其到两条虚线边界的距离相等，这个距离便是几何间隔 $\widetilde{\gamma}$，两条虚线间隔边界之间的距离等于 $2\widetilde{\gamma}$，而**虚线间隔边界上的点则是支持向量**。由于这些支持向量刚好在虚线间隔边界上，所以它们满足 $y(w^Tx+b)=1$（还记得我们把 functional margin 定为 1 了吗？上节中：处于方便推导和优化的目的，我们可以令 $\widetilde{\gamma}$ =1），而对于所有不是支持向量的点，则显然有 $y(w^Tx+b)=1$。
+![](https://img-blog.csdn.net/20140829141714944)
+
+### 2、深入svm
+### 2.1、从线性可分到线性不可分
+#### 2.1.1、从原始问题到对偶问题的求解
+接着考虑之前得到的目标函数：![](https://img-blog.csdnimg.cn/img_convert/d0b8a1c58d146d25767ae1233d114d99.png)
+由于求![](https://img-blog.csdnimg.cn/img_convert/c16922de920c93c3641a980d6524f3e3.png)的最大值相当于求![](https://img-blog.csdnimg.cn/img_convert/2b3dd7fdc6f81556e815e5bfefbf8ff8.png)的最小值，所以上述目标函数等价于（ $w$ 由分母变成分子，从而也有原来的max问题变为min问题，很明显，两者问题等价）：![](https://img-blog.csdnimg.cn/img_convert/16becf06e98ce0a57a405d707f0c0ff7.png)
+因为现在的目标函数是二次的，约束条件是线性的，所以它是一个凸二次规划问题。这个问题可以用现成的[QP (Quadratic Programming)](https://en.wikipedia.org/wiki/Quadratic_programming) 优化包进行求解。一言以蔽之：在一定的约束条件下，目标最优，损失最小。
+
+此外，由于这个问题的特殊结构，还可以通过拉格朗日对偶性（Lagrange Duality）变换到对偶变量 (dual variable) 的优化问题，即通过求解与原问题等价的对偶问题（dual problem）得到原始问题的最优解，这就是线性可分条件下支持向量机的对偶算法，这样做的优点在于：一者对偶问题往往更容易求解；二者可以自然的引入核函数，进而推广到非线性分类问题。
+
+那什么是拉格朗日对偶性呢？简单来讲，通过给每一个约束条件加上一个拉格朗日乘子（Lagrange multiplier），定义拉格朗日函数（通过拉格朗日函数将约束条件融合到目标函数里去，从而只用一个函数表达式便能清楚的表达出我们的问题）：
+![](https://img-blog.csdnimg.cn/img_convert/f7a77562a2d65001b13b9893ce4821ea.png)
+然后令![](https://img-blog.csdnimg.cn/img_convert/2e6ad2ab2bcf425e3825f95cbb677b0a.png)
+容易验证，当某个约束条件不满足时，例如![](https://img-blog.csdn.net/20131107202615937)，那么显然有![](https://img-blog.csdn.net/20131107202642843)（只要令![](https://img-blog.csdn.net/20131107202702265)即可）。而当所有约束条件都满足时，则最优值为![](https://img-blog.csdn.net/20131111195433031)，亦即最初要最小化的量。
+
+因此，在要求约束条件得到满足的情况下最小化![](https://img-blog.csdn.net/20131111195324546)，实际上等价于直接最小化（当然，这里也有约束条件，就是≥0,i=1,…,n）   ，因为如果约束条件没有得到满足，会等于无穷大，自然不会是我们所要求的最小值。
+
+具体写出来，目标函数变成了：![](https://img-blog.csdnimg.cn/img_convert/b5028b57e2b99558109ef4b72e6243f8.png)
+
+这里用![](https://img-blog.csdn.net/20131107202721703)表示这个问题的最优值，且和最初的问题是等价的。如果直接求解，那么一上来便得面对w和b两个参数，而![](https://img-blog.csdn.net/20131111195824031)又是不等式约束，这个求解过程不好做。不妨把最小和最大的位置交换一下，变成：![](https://img-blog.csdnimg.cn/img_convert/408957dc4c48bb283a80af781acce4f8.png)
+交换以后的新问题是原始问题的对偶问题，这个新问题的最优值用 $d^*$ 来表示。而且有 $d^*$≤$p^*$，在满足某些条件的情况下，这两者相等，这个时候就可以通过求解对偶问题来间接地求解原始问题。
+
+换言之，之所以从minmax的原始问题 $p^*$，转化为maxmin的对偶问题 $d^*$，一者因为 $d^*$ 是 $p^*$ 的近似解，二者，转化为对偶问题后，更容易求解。
+
+下面可以先求 $L$ 对 $w$、$b$ 的极小，再求 $L$ 对 $\alpha$ 的极大。
+#### 2.1.2、KKT条件
+上文中提到 $d^*$ ≤ $p^*$ 在满足某些条件的情况下，两者等价”，这所谓的“满足某些条件”就是要满足KKT条件。
+  
+> 勘误：经大佬指出，这里的条件不应该是KKT条件，要让两者等价需满足strong duality （强对偶），而后有学者在强对偶下提出了KKT条件，且KKT条件的成立要
+> 满足constraint qualifications，而constraint qualifications之一就是Slater条件。所谓Slater 条件，即指：凸优化问题，如果存在一个点x，使得所有等式约束> 都成立，并且所有不等式约束都严格成立（即取严格不等号，而非等号），则满足Slater 条件。对于此处，Slater 条件成立，所以d*≤p*可以取等号。
+
+一般地，一个最优化数学模型能够表示成下列标准形式：![](https://img-blog.csdnimg.cn/20190127114042574.jpg)
+
+其中, $f(x)$ 是需要最小化的函数，$h(x)$ 是等式约束，$g(x)$ 是不等式约束，$p$ 和 $q$ 分别为等式约束和不等式约束的数量。
+
+同时，得明白以下两点：
++ 凸优化的概念： ![](https://img-blog.csdnimg.cn/img_convert/edb639ab7ad685a1ffe4afd247762327.png)为一凸集,![](https://img-blog.csdnimg.cn/img_convert/73106cdebc46629055781476a5342ee2.png)为一凸函数。凸优化就是要找出一点![](https://img-blog.csdnimg.cn/img_convert/ace0a3cf007573667f7d6bd1e1dfa4a0.gif)，使得每一![](https://img-blog.csdnimg.cn/img_convert/5329e127ec3fe0973c19d58a2ccab783.png)满足![](https://img-blog.csdnimg.cn/img_convert/f2c52c380cfdc9d57637baec7b582b57.gif)。
++ KKT条件的意义：它是一个非线性规划（Nonlinear Programming）问题能有最优化解法的必要和充分条件。
+
+而KKT条件就是指上面最优化数学模型的标准形式中的最小点 $x*$ 必须满足下面的条件：![](https://img-blog.csdnimg.cn/20190127114104532.jpg)
+
+经过论证，我们这里的问题是满足 KKT 条件的（首先已经满足Slater条件，再者 $f$ 和 $gi$ 也都是可微的，即 $L$ 对 $w$ 和 $b$ 都可导），因此现在我们便转化为求解第二个问题。
+
+也就是说，原始问题通过满足KKT条件，已经转化成了对偶问题。而求解这个对偶学习问题，分为3个步骤：首先要让 $L(w，b，a)$ 关于 $w$ 和 $b$ 最小化，然后求对 $\alpha$ 的极大，最后利用SMO算法求解对偶问题中的拉格朗日乘子。
+
+#### 2.1.3、对偶问题求解的3个步骤
+（1）、首先固定 $\alpha$，要让 $L$ 关于 $w$ 和 $b$ 最小化，我们分别对 $w$，$b$ 求偏导数，即令 $∂L/∂w$ 和 $∂L/∂b$ 等于零:![](https://img-blog.csdn.net/20131107202220500)
+将以上结果代入之前的 $L$:![](https://img-blog.csdnimg.cn/img_convert/f7a77562a2d65001b13b9893ce4821ea.png)
+
+得到：![](https://img-blog.csdnimg.cn/img_convert/932c52a368509fecfab8dc4c0061db38.gif)
+
+详细的推导过程：
+![](https://img-blog.csdnimg.cn/img_convert/ce6d86e5c23fbe27648c920d673018a1.png)
+
+最后，得到：
+![](https://img-blog.csdnimg.cn/img_convert/932c52a368509fecfab8dc4c0061db38.gif)
+
+从上面的最后一个式子，我们可以看出，此时的拉格朗日函数只包含了一个变量，那就是 $\alpha_i$（求出了便能求出 $w$，和 $b$，由此可见，上文第1.2节提出来的核心问题：分类函数 $f(x)=w^Tx+b$ 也就可以轻而易举的求出来了）
+
+（2）、求对 $\alpha$ 的极大，即是关于对偶问题的最优化问题。经过上面第一个步骤的求 $w$ 和 $b$，得到的拉格朗日函数式子已经没有了变量 $w$，$b$，只有 $\alpha$。从上面的式子得到：
+![](https://img-blog.csdnimg.cn/20190127114132410.jpg)
+
+这样，求出了 $\alpha_i$，根据![](https://img-blog.csdnimg.cn/img_convert/3c7ff505da3ac403fef3ab8abea2c157.png)，即可求出 $w$，然后通过![](https://img-blog.csdnimg.cn/img_convert/37b7a6d986ea431612795495bc5b3eb5.png)，即可求出 $b$，最终得出分离超平面和分类决策函数。
+
+（3）在求得 $L(w, b, a)$ 关于 $w$ 和 $b$ 最小化，以及对 $\alpha$ 的极大之后，最后一步则可以利用SMO算法求解对偶问题中的拉格朗日乘子 $\alpha$。
+![](https://img-blog.csdnimg.cn/20190127114239385.jpg)
+
+上述式子要解决的是在参数![](https://img-blog.csdnimg.cn/img_convert/7ffd65fae0490ba845b6c9f730f8d776.png)上求最大值 $W$ 的问题，至于 $x^{(i)}$ 和 $y^{(i)}$ 都是已知数。要了解这个SMO算法是如何推导的，请跳到下文第3.5节、SMO算法。
+
+到目前为止，我们的 SVM 还比较弱，只能处理线性的情况，下面我们将引入核函数，进而推广到非线性分类问题。
+
+#### 2.1.4、线性不可分的情况
+
+对于一个数据点 $x$ 进行分类，实际上是通过把 $x$ 带入 $f(x)=w^Tx+b$ 到算出结果然后根据其正负号来进行类别划分的。而前面的推导中我们得到![](https://img-blog.csdn.net/20131111163543781) 
+因此分类函数为：![](https://img-blog.csdnimg.cn/img_convert/d4418d12f4d8e5180212e55cde835bff.png)
+
+这里的形式的有趣之处在于，对于新点 $x$ 的预测，只需要计算它与训练数据点的内积即可（![](https://img-blog.csdn.net/20131111163753093)表示向量内积），这一点至关重要，是之后使用 Kernel 进行非线性推广的基本前提。此外，所谓 Supporting Vector 也在这里显示出来——事实上，所有非Supporting Vector 所对应的系数 $\alpha$ 都是等于零的，因此对于新点的内积计算实际上只要针对少量的“支持向量”而不是所有的训练数据即可。
+
+为什么非支持向量对应 $\alpha$ 的等于零呢？直观上来理解的话，就是这些“后方”的点——正如我们之前分析过的一样，对超平面是没有影响的，由于分类完全有超平面决定，所以这些无关的点并不会参与分类问题的计算，因而也就不会产生任何影响了。
+
+回忆一下我们2.1.1节中通过 Lagrange multiplier得到的目标函数：![](https://img-blog.csdnimg.cn/img_convert/c0ae5fdc3189e4ef90926ce6aca55adc.png)
+
+注意到如果 $x_i$ 是支持向量的话，上式中红颜色的部分是等于 0 的（因为支持向量的 functional margin 等于 1 ），而对于非支持向量来说，functional margin 会大于 1 ，因此红颜色部分是大于零的，而 $\alpha_i$ 又是非负的，为了满足最大化，$\alpha$ 必须等于 0 。这也就是这些非Supporting Vector 的点的局限性。 
+
+至此，我们便得到了一个maximum margin hyper plane classifier，这就是所谓的支持向量机（Support Vector Machine）。当然，到目前为止，我们的 SVM 还比较弱，只能处理线性的情况，不过，在得到了对偶dual 形式之后，通过 Kernel 推广到非线性的情况就变成了一件非常容易的事情了(相信，你还记得本节开头所说的：“通过求解对偶问题得到最优解，这就是线性可分条件下支持向量机的对偶算法，这样做的优点在于：一者对偶问题往往更容易求解；二者可以自然的引入核函数，进而推广到非线性分类问题”)。
+
+### 2.2、核函数Kernel
+#### 2.2.1、特征空间的隐式映射：核函数
+
+事实上，大部分时候数据并不是线性可分的，这个时候满足这样条件的超平面就根本不存在。在上文中，我们已经了解到了SVM处理线性可分的情况，那对于非线性的数据SVM咋处理呢？对于非线性的情况，SVM 的处理方法是选择一个核函数 $κ(⋅,⋅)$ ，通过将数据映射到高维空间，来解决在原始空间中线性不可分的问题。
+
+具体来说，在线性不可分的情况下，支持向量机首先在低维空间中完成计算，然后通过核函数将输入空间映射到高维特征空间，最终在高维特征空间中构造出最优分离超平面，从而把平面上本身不好分的非线性数据分开。如图所示，一堆数据在二维空间无法划分，从而映射到三维空间里划分：
 
 
