@@ -1,0 +1,73 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {   // 这个大括号里是‘构建（build）’任务
+            "label": "build",  // 任务名称
+            "type": "shell",   // process是vsc把预定义变量和转义解析后直接全部传给command；shell相当于先打开shell再输入命令，所以args还会经过shell再解析一遍
+            "command": "g++",  // 要使用的编译器，C++用g++
+            "args": [
+                "-Wall",       // 开启额外警告
+                "-g",          // 生成和调试有关的信息
+                "-std=c++11",  // 语言标准，可根据自己的需要进行修改，写c++要换成c++的语言标准，比如c++11
+                "${file}",     // 在本文件夹下
+                "-o",          // 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out
+                "${workspaceFolder}/${fileBasenameNoExtension}.main.out",
+                // opencv对应头文件
+                "-I", "/usr/local/include",
+                "-I", "/usr/local/include/opencv4",
+                "-I", "/usr/local/include/opencv4/opencv2",
+                // opencv 对应库
+                "-L", "/usr/local/lib",
+                "-l", "opencv_core",
+                "-l", "opencv_imgproc",
+                "-l", "opencv_imgcodecs",
+                "-l", "opencv_video",
+                "-l", "opencv_ml",
+                "-l", "opencv_highgui",
+                "-l", "opencv_objdetect",
+                "-l", "opencv_flann",
+                "-l", "opencv_imgcodecs",
+                "-l", "opencv_photo",
+                "-l", "opencv_videoio"
+            ],
+            "problemMatcher":{ // 执行这个任务时的一些其他设定
+                "owner": "cpp",// 
+                "fileLocation":[
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern":[
+                    {
+                        "regexp": "^([^\\\\s].*)\\\\((\\\\d+,\\\\d+)\\\\):\\\\s*(.*)$",
+                        "file": 1,
+                        "location": 2,
+                        "message": 3
+                    }
+                ]
+            },
+            "group": {             // group表示‘组’，我们可以有很多的task，然后把他们放在一个‘组’里
+                "kind": "build",   // 表示这一组任务类型是构建
+                "isDefault": true  // 不为true时ctrl shift B就要手动选择了
+            }
+        },
+        {   //这个大括号里是‘运行(run)’任务，一些设置与上面的构建任务性质相同
+            "label": "run", 
+            "type": "shell", 
+            "dependsOn": "build", //任务依赖，因为要运行必须先构建，所以执行这个任务前必须先执行build任务，
+            //对应存放的可执行文件，只需要指定这个文件在哪里就好(其实与build中存放可执行文件的路径一致)
+            "command":"${workspaceFolder}/${fileBasenameNoExtension}.main.out",
+            "group": {
+                "kind": "test",   // 这一组是‘测试’组，将run任务放在test组里方便我们用快捷键执行
+                "isDefault": true // 可以去设置默认键
+            },
+            "presentation": {     // 配置用于显示任务输出并读取其输入的面板。
+                "echo": true,     // 控制是否将执行的命令显示到面板中。
+                "reveal": "always",
+                "focus": true,    // 这个就设置为true了，运行任务后将焦点聚集到终端，方便进行输入
+                "panel": "new"
+            }
+        }
+    ]
+}

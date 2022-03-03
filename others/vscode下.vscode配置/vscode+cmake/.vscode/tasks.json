@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make build",                   //编译的项目名，build
+            "type": "shell",
+            "command": "cd ./build ;cmake ../ ;make",//编译命令
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {   //这个大括号里是‘运行(run)’任务，一些设置与上面的构建任务性质相同
+            "label": "run", 
+            "type": "shell", 
+            "dependsOn": "build", //任务依赖，因为要运行必须先构建，所以执行这个任务前必须先执行build任务，
+            //执行文件，只需要指定这个文件在哪里就好(必须是你Cmakelists中生成的可执行文件)
+            "command":"${workspaceFolder}/build/eigenGeometry",
+            "group": {
+                "kind": "test", 
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true, 
+                "panel": "new"
+            },
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+        }
+    ]
+}

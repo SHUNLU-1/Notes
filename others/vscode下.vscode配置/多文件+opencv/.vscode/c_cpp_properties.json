@@ -1,0 +1,30 @@
+{
+    // 多文件目录下 你需要设置自己工程文件夹里面对应的头文件 不然很容易找不到
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Light/**",
+                "${workspaceFolder}/OreBox/**",
+                "${workspaceFolder}/SerialPort/**",
+                "${workspaceFolder}/Others/Monitor**",
+                "${workspaceFolder}/Others/Increase**",
+                "/usr/include/**",
+                "/usr/local/include",
+                "/usr/local/include/opencv4",
+                "/usr/local/include/opencv4/opencv2/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
