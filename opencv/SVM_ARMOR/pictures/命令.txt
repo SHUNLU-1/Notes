@@ -1,0 +1,3 @@
+
+find /home/ubuntu/code/SVM_ARMOR/pictures/2 -name "*.jpg" > 2.txt
+
