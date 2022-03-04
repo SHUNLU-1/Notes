@@ -239,8 +239,8 @@ def testRbf(data_train,data_test):
 
 """主程序"""
 def main():
-    filename_traindata='C:\\Users\\Administrator\\Desktop\\data\\traindata.txt'
-    filename_testdata='C:\\Users\\Administrator\\Desktop\\data\\testdata.txt'
+    filename_traindata='traindata.txt'
+    filename_testdata='testdata.txt'
     testRbf(filename_traindata,filename_testdata)
 
 if __name__=='__main__':
