@@ -1,0 +1,3 @@
+/home/ubuntu/vscode/yolov5-dnn-cpp-python/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/vscode/yolov5-dnn-cpp-python/build/CMakeFiles/yolo.dir
+/home/ubuntu/vscode/yolov5-dnn-cpp-python/build/CMakeFiles/edit_cache.dir

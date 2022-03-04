@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {//(build)
+            "type": "shell",
+            "label": "make build",
+            "command": "cd ./build ;cmake ../ ;make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+        {//(run)
+            "label": "run", 
+            "type": "shell", 
+            "dependsOn": "build", //任务依赖，因为要运行必须先构建，所以执行这个任务前必须先执行build任务，
+            "command":"${workspaceFolder}/build/yolo",//执行文件，只需要指定这个文件在哪里就好
+            "group": {
+                "kind": "test", //这一组是‘测试’组，将run任务放在test组里方便我们用快捷键执行
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true, //这个就设置为true了，运行任务后将焦点聚集到终端，方便进行输入
+                "panel": "new"
+            },
+        },
+        {//clean
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+        }
+    ],
+    "version": "2.0.0"
+}
