@@ -20,7 +20,7 @@
 ## others
 + [Markdown_learn](https://github.com/SHUNLU-1/Notes/tree/main/others/Markdown_learn)
 + [cmake_learn](https://github.com/SHUNLU-1/Notes/tree/main/others/cmake)
-+ [如何熟练的使用 git 上传代码到 github](https://github.com/SHUNLU-1/Notes/tree/main/git)
++ [如何熟练的使用 git 上传代码到 github](https://github.com/SHUNLU-1/Notes/tree/main/others/git)
 + [vscode_config](https://github.com/SHUNLU-1/Notes/tree/main/others/learn_vscode_config/C_Single)
 + [vpn](https://github.com/SHUNLU-1/Notes/tree/main/others/vpn)
 
