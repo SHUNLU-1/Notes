@@ -239,8 +239,8 @@ def testRbf(data_train,data_test):
 
 """主程序"""
 def main():
-    filename_traindata='traindata.txt'
-    filename_testdata='testdata.txt'
+    filename_traindata='/home/amber/code/Notes/machine_learning/SVM/data/train.txt'
+    filename_testdata='/home/amber/code/Notes/machine_learning/SVM/data/test.txt'
     testRbf(filename_traindata,filename_testdata)
 
 if __name__=='__main__':
