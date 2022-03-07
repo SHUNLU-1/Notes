@@ -138,7 +138,7 @@ Block 归一化 HOG特征将8×8的一个局部区域作为一个cell，再以2�
  
 ### 1.1、分类标准的起源：Logistic回归
 
-**线性分类器：**给定一些数据点，它们分别属于两个不同的类，现在要找到一个线性分类器把这些数据分成两类。如果用x表示数据点，用y表示类别（y可以取1或者-1，分别代表两个不同的类），一个线性分类器的学习目标便是要在n维的数据空间中找到一个超平面（hyper plane），这个超平面的方程可以表示为（w 是垂直于超平面的一个向量，定义为法向量，而中$w^T$的T代表转置）：
+**线性分类器**: 给定一些数据点，它们分别属于两个不同的类，现在要找到一个线性分类器把这些数据分成两类。如果用x表示数据点，用y表示类别（y可以取1或者-1，分别代表两个不同的类），一个线性分类器的学习目标便是要在n维的数据空间中找到一个超平面（hyper plane），这个超平面的方程可以表示为（w 是垂直于超平面的一个向量，定义为法向量，而中$w^T$的T代表转置）：
 ![](https://img-blog.csdn.net/20131107201104906)
 
 Logistic回归目的是从特征学习出一个0/1分类模型，而这个模型是将特性的线性组合作为自变量，由于自变量的取值范围是负无穷到正无穷。因此，使用logistic函数（或称作sigmoid函数）将自变量映射到(0,1)上，映射后的值被认为是属于y=1的概率。
@@ -432,7 +432,7 @@ OK，继续回到咱们的问题。我们，原来的约束条件为：![](https
 
 将 $w$ 带回![](https://img-blog.csdnimg.cn/img_convert/0d419da2ab065a427f177dbb60559346.png)并化简，得到和原来一样的目标函数：![](https://img-blog.csdnimg.cn/img_convert/31af8d627e21aef55e2f5572982d08ca.png)
 
-不过，由于我们得到![](https://img-blog.csdnimg.cn/img_convert/dbe0cb259d8a6af7c89c619009cf5f00.png)而又有 $r_i\geq0$（作为 Lagrange multiplier 的条件），因此有 $a_i\leqC$，所以整个 dual 问题现在写作：
+不过，由于我们得到![](https://img-blog.csdnimg.cn/img_convert/dbe0cb259d8a6af7c89c619009cf5f00.png)而又有 $r_i\geq0$（作为 Lagrange multiplier 的条件），因此有 $a_i\leq C$，所以整个 dual 问题现在写作：
 ![](https://img-blog.csdnimg.cn/img_convert/2ae4e8a310b75c0665347894ddedf64d.png)
 
 把前后的结果对比一下（错误修正：图中的Dual formulation中的Minimize应为maxmize）：
@@ -628,7 +628,7 @@ int main(int argc, char *argv[])
 + $y_iu_i=1$ 但是 $a_i=0$ 或者 $a_i=C$ 则表明不满足的，而原本应该是 $0<a_i<C$
 也就是说，如果存在不满足KKT条件的 $a_i$，那么需要更新这些 $a_i$，这是第一个约束条件。此外，更新的同时还要受到第二个约束条件的限制，即![](https://img-blog.csdn.net/20131120104344000)
 
-因此，如果假设选择的两个乘子$a_1$和$a_2$，它们在更新之前分别是 $a_1^{old}$、$a_2^{old}$，更新之后分别是 $a_1^{new}$、$a_2^{new}，那么更新前后的值需要满足以下等式才能保证和为0的约束：
+因此，如果假设选择的两个乘子$a_1$和$a_2$，它们在更新之前分别是 $a_1^{old}$、$a_2^{old}$，更新之后分别是 $a_1^{new}$、$a_2^{new}$，那么更新前后的值需要满足以下等式才能保证和为0的约束：
 ![](https://img-blog.csdn.net/20140917211428859)其中，![](https://img-blog.csdn.net/20140917211751882)是常数。
 
 两个因子不好同时求解，所以可先求第二个乘子 $a_2$ 的解（$a_2^{new}$），得到 $a_2$ 的解（$a_2^{new}$）之后，再用 $a_2$ 的解（$a_2^{new}$）表示 $a_1$ 的解（$a_1^{new}$）。
@@ -667,7 +667,9 @@ int main(int argc, char *argv[])
 而 $b$ 在满足下述条件：
 ![](https://img-blog.csdn.net/20140917213613796)
 下更新 $b$：
+
 ![](https://img-blog.csdn.net/20140917213709734)
+
 ![](https://img-blog.csdn.net/20140917213912504)
 
 且每次更新完两个乘子的优化后，都需要再重新计算 $b$，及对应的 $Ei$ 值。
