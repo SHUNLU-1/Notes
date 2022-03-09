@@ -1,20 +1,22 @@
-# | 匹配左右任意一个表达式
-# （ab）将括号中的字符作为一个分组
-#  \num 引用分组num匹配到的字符串
-# （？P）分组取别名
-# （？P=name）引用别名为name分组匹配到的字符串
 
+'''
+| 匹配左右任意一个表达式
+（ab）将括号中的字符作为一个分组
+ \num 引用分组num匹配到的字符串
+（？P）分组取别名
+（？P=name）引用别名为name分组匹配到的字符串
+'''
 
 # | 匹配左右任意一个表达式
 # 实际上是一个或的关系  （从左往右）
-# import re
-# string = 'wywsqpeng8888'
-# ret = re.match('(wywsqpeng|wywsqpeng8888)',string)
-# print(ret.group())
-# import re
-# string = 'wywsqpeng8888'
-# ret = re.match('(wywsqpeng8888|wywsqpeng)',string)
-# print(ret.group())
+import re
+string = 'wywsqpeng8888'
+ret = re.match('(wywsqpeng|wywsqpeng8888)',string)
+print(ret.group())
+import re
+string = 'wywsqpeng8888'
+ret = re.match('(wywsqpeng8888|wywsqpeng)',string)
+print(ret.group())
 
 # （ab）将括号中的字符作为一个分组 (分组匹配)
 # 匹配电话号码
