@@ -1,0 +1,5 @@
+classes= 9
+train = /home/ubuntu/darknet/VOCdevkit1/2008_train.txt
+valid = /home/ubuntu/darknet/VOCdevkit1/2008_test.txt
+names = /home/ubuntu/darknet/data/voc.names
+backup = /home/ubuntu/darknet/backup1
