@@ -17,7 +17,7 @@ sudo apt-get install git
 ### (2)、配置 git
 
 ```bash
-git git config --global user.name <your-name> #输入你github的用户名
+git config --global user.name <your-name> #输入你github的用户名
 git config --global user.email <your-email> #输入你的邮箱
 git config --list #可以查看你刚刚的配置
 ```
