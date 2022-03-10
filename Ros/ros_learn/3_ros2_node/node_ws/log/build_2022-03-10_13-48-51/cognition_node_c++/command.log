@@ -1,2 +1,0 @@
-Invoking command in '/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++': /usr/bin/cmake /home/amber/code/Notes/Ros/3_ros2_node/node_ws/src/cognition_node_c++ -DCMAKE_INSTALL_PREFIX=/home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node_c++
-Invoked command in '/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++' returned '1': /usr/bin/cmake /home/amber/code/Notes/Ros/3_ros2_node/node_ws/src/cognition_node_c++ -DCMAKE_INSTALL_PREFIX=/home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node_c++
