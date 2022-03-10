@@ -150,7 +150,9 @@ std_msgs/String content
 # 图像消息，调用sensor_msgs下的Image类型
 sensor_msgs/Image image
 ```
-这种组合结构图如下：![2022-03-10_18-16.png](https://s2.loli.net/2022/03/10/1lZqr5w3PbEyuXx.png)
+这种组合结构图如下：
+
+![2022-03-10_18-16.png](https://s2.loli.net/2022/03/10/1lZqr5w3PbEyuXx.png)
 
 这个图一共三层，第一层是消息定义层，第二层是ROS2已有的std_msgs,sensor_msgs，其组成关系是由下一层组合成上一层。
 最下面一层string、uint8、uint32是ROS2中的原始数据类型，原始数据类型有下面几种，ROS2中所有的接口都是由这些原始数据类型组成。
