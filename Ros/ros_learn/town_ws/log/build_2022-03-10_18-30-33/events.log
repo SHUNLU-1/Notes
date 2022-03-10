@@ -1,0 +1,505 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (-) JobUnselected: {'identifier': 'village_li'}
+[0.000130] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000144] (village_interfaces) JobQueued: {'identifier': 'village_interfaces', 'dependencies': OrderedDict()}
+[0.001132] (village_interfaces) JobStarted: {'identifier': 'village_interfaces'}
+[0.008077] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'cmake'}
+[0.008279] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces'], 'cwd': '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'amber'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2378'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('LESS', '-R'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/amber'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/amber/code/Notes/Ros/ros_learn/town_ws/src'), ('TERM_PROGRAM_VERSION', '1.65.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/amber/.nvm/versions/node/v16.14.0/bin'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/amber/.nvm/versions/node/v16.14.0/include/node'), ('ZSH', '/home/amber/.oh-my-zsh'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1811'), ('P9K_TTY', 'old'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '999085'), ('NVM_DIR', '/home/amber/.nvm'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'amber'), ('JOURNAL_STREAM', '8:60479'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'amber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/amber/.nvm/versions/node/v16.14.0/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/amber/anaconda3/condabin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/amber/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/amber:@/tmp/.ICE-unix/2423,unix/amber:/tmp/.ICE-unix/2423'), ('INVOCATION_ID', '3a78e6fdfe354a11ba7d049b964715ea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6ebed8e538.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/amber/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/amber/anaconda3/bin/conda'), ('_P9K_TTY', '/dev/pts/1'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy')]), 'shell': False}
+[0.047768] (village_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.096136] (village_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.098861] (village_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099813] (-) TimerEvent: {}
+[0.157415] (village_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.158236] (village_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199948] (-) TimerEvent: {}
+[0.224727] (village_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.231697] (village_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231883] (village_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.233360] (village_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.300044] (-) TimerEvent: {}
+[0.310307] (village_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.311023] (village_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.384763] (village_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.393930] (village_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.394421] (village_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.396295] (village_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.400119] (-) TimerEvent: {}
+[0.414252] (village_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.414410] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500217] (-) TimerEvent: {}
+[0.543101] (village_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.561778] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.566076] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.569466] (village_interfaces) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[0.600319] (-) TimerEvent: {}
+[0.700571] (-) TimerEvent: {}
+[0.800808] (-) TimerEvent: {}
+[0.901050] (-) TimerEvent: {}
+[1.001331] (-) TimerEvent: {}
+[1.101572] (-) TimerEvent: {}
+[1.123542] (village_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.143784] (village_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.188990] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201662] (-) TimerEvent: {}
+[1.286829] (village_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.301739] (-) TimerEvent: {}
+[1.309032] (village_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.401838] (-) TimerEvent: {}
+[1.502066] (-) TimerEvent: {}
+[1.533613] (village_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.602162] (-) TimerEvent: {}
+[1.702430] (-) TimerEvent: {}
+[1.738558] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802530] (-) TimerEvent: {}
+[1.845118] (village_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.862944] (village_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.864169] (village_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.882372] (village_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.882595] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.882692] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.882780] (village_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.897471] (village_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.902622] (-) TimerEvent: {}
+[1.965106] (village_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.979678] (village_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.980902] (village_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.981543] (village_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.984678] (village_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.002738] (-) TimerEvent: {}
+[2.049487] (village_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.052053] (village_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces\n'}
+[2.060986] (village_interfaces) CommandEnded: {'returncode': 0}
+[2.062251] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'build'}
+[2.063137] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'amber'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2378'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('LESS', '-R'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/amber'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/amber/code/Notes/Ros/ros_learn/town_ws/src'), ('TERM_PROGRAM_VERSION', '1.65.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/amber/.nvm/versions/node/v16.14.0/bin'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/amber/.nvm/versions/node/v16.14.0/include/node'), ('ZSH', '/home/amber/.oh-my-zsh'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1811'), ('P9K_TTY', 'old'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '999085'), ('NVM_DIR', '/home/amber/.nvm'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'amber'), ('JOURNAL_STREAM', '8:60479'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'amber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/amber/.nvm/versions/node/v16.14.0/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/amber/anaconda3/condabin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/amber/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/amber:@/tmp/.ICE-unix/2423,unix/amber:/tmp/.ICE-unix/2423'), ('INVOCATION_ID', '3a78e6fdfe354a11ba7d049b964715ea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6ebed8e538.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/amber/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/amber/anaconda3/bin/conda'), ('_P9K_TTY', '/dev/pts/1'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy')]), 'shell': False}
+[2.092021] (village_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.092254] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__dds_connext_idl\x1b[0m\n'}
+[2.092350] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__cpp\x1b[0m\n'}
+[2.099824] (village_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.100009] (village_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating DDS interfaces\x1b[0m\n'}
+[2.102816] (-) TimerEvent: {}
+[2.203041] (-) TimerEvent: {}
+[2.245766] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.253632] (village_interfaces) StdoutLine: {'line': b'[  6%] Built target village_interfaces__cpp\n'}
+[2.254792] (village_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o\x1b[0m\n'}
+[2.255888] (village_interfaces) StdoutLine: {'line': b'[  8%] Built target village_interfaces__dds_connext_idl\n'}
+[2.261110] (village_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.261336] (village_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.261425] (village_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.263946] (village_interfaces) StdoutLine: {'line': b"[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for RTI Connext (using '/opt/rti.com/rti_connext_dds-5.3.1/bin/rtiddsgen_server')\x1b[0m\n"}
+[2.282323] (village_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.303138] (-) TimerEvent: {}
+[2.312135] (village_interfaces) StdoutLine: {'line': b'[ 18%] Built target village_interfaces__rosidl_generator_c\n'}
+[2.320016] (village_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.320216] (village_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.403223] (-) TimerEvent: {}
+[2.405509] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.409225] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.411431] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.415399] (village_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o\x1b[0m\n'}
+[2.418670] (village_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[2.423773] (village_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o\x1b[0m\n'}
+[2.458348] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.467424] (village_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o\x1b[0m\n'}
+[2.472438] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.483054] (village_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o\x1b[0m\n'}
+[2.488223] (village_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.503316] (-) TimerEvent: {}
+[2.506707] (village_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.516212] (village_interfaces) StdoutLine: {'line': b'[ 36%] Built target village_interfaces__rosidl_typesupport_c\n'}
+[2.529369] (village_interfaces) StdoutLine: {'line': b'[ 36%] Built target village_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.603388] (-) TimerEvent: {}
+[2.605918] (village_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.641561] (village_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.650241] (village_interfaces) StdoutLine: {'line': b'[ 40%] Built target village_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.668848] (village_interfaces) StdoutLine: {'line': b'[ 40%] Built target village_interfaces__rosidl_typesupport_cpp\n'}
+[2.703508] (-) TimerEvent: {}
+[2.741281] (village_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.803609] (-) TimerEvent: {}
+[2.804497] (village_interfaces) StdoutLine: {'line': b'[ 42%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.814881] (village_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.903695] (-) TimerEvent: {}
+[2.988972] (village_interfaces) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...\n'}
+[2.989156] (village_interfaces) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Done\n'}
+[3.003805] (-) TimerEvent: {}
+[3.015582] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_connext_cpp\x1b[0m\n'}
+[3.033199] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.048875] (village_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o\x1b[0m\n'}
+[3.071554] (village_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o\x1b[0m\n'}
+[3.071745] (village_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o\x1b[0m\n'}
+[3.072584] (village_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.o\x1b[0m\n'}
+[3.073442] (village_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o\x1b[0m\n'}
+[3.103908] (-) TimerEvent: {}
+[3.204223] (-) TimerEvent: {}
+[3.304566] (-) TimerEvent: {}
+[3.356613] (village_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.404654] (-) TimerEvent: {}
+[3.414623] (village_interfaces) StdoutLine: {'line': b'[ 57%] Built target village_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.458149] (village_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_connext_cpp.so\x1b[0m\n'}
+[3.504778] (-) TimerEvent: {}
+[3.597339] (village_interfaces) StdoutLine: {'line': b'[ 61%] Built target village_interfaces__rosidl_typesupport_connext_cpp\n'}
+[3.604884] (-) TimerEvent: {}
+[3.605036] (village_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C type support for RTI Connext\x1b[0m\n'}
+[3.704990] (-) TimerEvent: {}
+[3.737171] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_connext_c\x1b[0m\n'}
+[3.775586] (village_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o\x1b[0m\n'}
+[3.775801] (village_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.cpp.o\x1b[0m\n'}
+[3.775886] (village_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o\x1b[0m\n'}
+[3.775971] (village_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o\x1b[0m\n'}
+[3.805106] (-) TimerEvent: {}
+[3.905392] (-) TimerEvent: {}
+[4.005681] (-) TimerEvent: {}
+[4.105945] (-) TimerEvent: {}
+[4.126356] (village_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_connext_c.so\x1b[0m\n'}
+[4.206064] (-) TimerEvent: {}
+[4.304428] (village_interfaces) StdoutLine: {'line': b'[ 77%] Built target village_interfaces__rosidl_typesupport_connext_c\n'}
+[4.306129] (-) TimerEvent: {}
+[4.311499] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces\x1b[0m\n'}
+[4.318564] (village_interfaces) StdoutLine: {'line': b'[ 77%] Built target village_interfaces\n'}
+[4.325731] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__py\x1b[0m\n'}
+[4.333764] (village_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.406246] (-) TimerEvent: {}
+[4.506525] (-) TimerEvent: {}
+[4.569279] (village_interfaces) StdoutLine: {'line': b'[ 79%] Built target village_interfaces__py\n'}
+[4.576564] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__python\x1b[0m\n'}
+[4.588744] (village_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o\x1b[0m\n'}
+[4.606639] (-) TimerEvent: {}
+[4.644713] (village_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so\x1b[0m\n'}
+[4.674445] (village_interfaces) StdoutLine: {'line': b'[ 83%] Built target village_interfaces__python\n'}
+[4.681816] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.681996] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.682089] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.682172] (village_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target village_interfaces__rosidl_typesupport_connext_c__pyext\x1b[0m\n'}
+[4.693935] (village_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.694274] (village_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.694965] (village_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.698712] (village_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c.o\x1b[0m\n'}
+[4.706747] (-) TimerEvent: {}
+[4.744399] (village_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.744554] (village_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.747656] (village_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.760854] (village_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.770585] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.770764] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.794159] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.806853] (-) TimerEvent: {}
+[4.829469] (village_interfaces) StdoutLine: {'line': b'[100%] Built target village_interfaces__rosidl_typesupport_connext_c__pyext\n'}
+[4.906943] (-) TimerEvent: {}
+[5.007217] (-) TimerEvent: {}
+[5.107480] (-) TimerEvent: {}
+[5.207743] (-) TimerEvent: {}
+[5.307989] (-) TimerEvent: {}
+[5.408250] (-) TimerEvent: {}
+[5.508516] (-) TimerEvent: {}
+[5.608757] (-) TimerEvent: {}
+[5.709028] (-) TimerEvent: {}
+[5.809314] (-) TimerEvent: {}
+[5.909558] (-) TimerEvent: {}
+[6.009807] (-) TimerEvent: {}
+[6.110040] (-) TimerEvent: {}
+[6.210299] (-) TimerEvent: {}
+[6.310561] (-) TimerEvent: {}
+[6.410800] (-) TimerEvent: {}
+[6.511062] (-) TimerEvent: {}
+[6.611332] (-) TimerEvent: {}
+[6.711557] (-) TimerEvent: {}
+[6.811792] (-) TimerEvent: {}
+[6.912018] (-) TimerEvent: {}
+[7.012288] (-) TimerEvent: {}
+[7.112586] (-) TimerEvent: {}
+[7.212892] (-) TimerEvent: {}
+[7.313140] (-) TimerEvent: {}
+[7.413359] (-) TimerEvent: {}
+[7.513602] (-) TimerEvent: {}
+[7.613843] (-) TimerEvent: {}
+[7.714090] (-) TimerEvent: {}
+[7.814343] (-) TimerEvent: {}
+[7.914594] (-) TimerEvent: {}
+[8.014863] (-) TimerEvent: {}
+[8.115106] (-) TimerEvent: {}
+[8.215334] (-) TimerEvent: {}
+[8.315552] (-) TimerEvent: {}
+[8.415803] (-) TimerEvent: {}
+[8.516035] (-) TimerEvent: {}
+[8.616300] (-) TimerEvent: {}
+[8.716526] (-) TimerEvent: {}
+[8.816734] (-) TimerEvent: {}
+[8.916955] (-) TimerEvent: {}
+[9.017208] (-) TimerEvent: {}
+[9.117457] (-) TimerEvent: {}
+[9.217680] (-) TimerEvent: {}
+[9.317924] (-) TimerEvent: {}
+[9.418153] (-) TimerEvent: {}
+[9.518458] (-) TimerEvent: {}
+[9.618699] (-) TimerEvent: {}
+[9.718949] (-) TimerEvent: {}
+[9.819199] (-) TimerEvent: {}
+[9.919462] (-) TimerEvent: {}
+[10.019725] (-) TimerEvent: {}
+[10.119971] (-) TimerEvent: {}
+[10.220210] (-) TimerEvent: {}
+[10.320439] (-) TimerEvent: {}
+[10.420709] (-) TimerEvent: {}
+[10.520965] (-) TimerEvent: {}
+[10.621204] (-) TimerEvent: {}
+[10.721479] (-) TimerEvent: {}
+[10.822038] (-) TimerEvent: {}
+[10.922609] (-) TimerEvent: {}
+[11.023187] (-) TimerEvent: {}
+[11.123735] (-) TimerEvent: {}
+[11.224221] (-) TimerEvent: {}
+[11.324763] (-) TimerEvent: {}
+[11.425093] (-) TimerEvent: {}
+[11.525578] (-) TimerEvent: {}
+[11.625923] (-) TimerEvent: {}
+[11.726199] (-) TimerEvent: {}
+[11.826452] (-) TimerEvent: {}
+[11.926702] (-) TimerEvent: {}
+[12.026954] (-) TimerEvent: {}
+[12.127173] (-) TimerEvent: {}
+[12.227402] (-) TimerEvent: {}
+[12.327633] (-) TimerEvent: {}
+[12.427879] (-) TimerEvent: {}
+[12.528124] (-) TimerEvent: {}
+[12.628375] (-) TimerEvent: {}
+[12.728611] (-) TimerEvent: {}
+[12.828848] (-) TimerEvent: {}
+[12.929124] (-) TimerEvent: {}
+[13.029389] (-) TimerEvent: {}
+[13.129659] (-) TimerEvent: {}
+[13.229941] (-) TimerEvent: {}
+[13.330310] (-) TimerEvent: {}
+[13.430923] (-) TimerEvent: {}
+[13.531422] (-) TimerEvent: {}
+[13.631979] (-) TimerEvent: {}
+[13.732492] (-) TimerEvent: {}
+[13.832973] (-) TimerEvent: {}
+[13.933469] (-) TimerEvent: {}
+[14.033989] (-) TimerEvent: {}
+[14.134477] (-) TimerEvent: {}
+[14.234918] (-) TimerEvent: {}
+[14.335222] (-) TimerEvent: {}
+[14.435721] (-) TimerEvent: {}
+[14.536251] (-) TimerEvent: {}
+[14.636767] (-) TimerEvent: {}
+[14.737323] (-) TimerEvent: {}
+[14.837853] (-) TimerEvent: {}
+[14.938363] (-) TimerEvent: {}
+[15.038905] (-) TimerEvent: {}
+[15.139443] (-) TimerEvent: {}
+[15.239953] (-) TimerEvent: {}
+[15.340494] (-) TimerEvent: {}
+[15.441087] (-) TimerEvent: {}
+[15.541689] (-) TimerEvent: {}
+[15.642250] (-) TimerEvent: {}
+[15.742877] (-) TimerEvent: {}
+[15.843407] (-) TimerEvent: {}
+[15.943924] (-) TimerEvent: {}
+[16.044451] (-) TimerEvent: {}
+[16.144892] (-) TimerEvent: {}
+[16.245181] (-) TimerEvent: {}
+[16.345452] (-) TimerEvent: {}
+[16.445905] (-) TimerEvent: {}
+[16.546411] (-) TimerEvent: {}
+[16.646975] (-) TimerEvent: {}
+[16.747451] (-) TimerEvent: {}
+[16.847774] (-) TimerEvent: {}
+[16.948262] (-) TimerEvent: {}
+[17.048656] (-) TimerEvent: {}
+[17.149179] (-) TimerEvent: {}
+[17.249664] (-) TimerEvent: {}
+[17.350196] (-) TimerEvent: {}
+[17.450706] (-) TimerEvent: {}
+[17.551214] (-) TimerEvent: {}
+[17.651776] (-) TimerEvent: {}
+[17.752270] (-) TimerEvent: {}
+[17.852835] (-) TimerEvent: {}
+[17.953376] (-) TimerEvent: {}
+[18.053832] (-) TimerEvent: {}
+[18.154127] (-) TimerEvent: {}
+[18.254652] (-) TimerEvent: {}
+[18.354884] (-) TimerEvent: {}
+[18.455228] (-) TimerEvent: {}
+[18.555784] (-) TimerEvent: {}
+[18.656257] (-) TimerEvent: {}
+[18.756555] (-) TimerEvent: {}
+[18.857105] (-) TimerEvent: {}
+[18.957690] (-) TimerEvent: {}
+[19.058310] (-) TimerEvent: {}
+[19.158945] (-) TimerEvent: {}
+[19.259547] (-) TimerEvent: {}
+[19.360043] (-) TimerEvent: {}
+[19.460386] (-) TimerEvent: {}
+[19.560878] (-) TimerEvent: {}
+[19.661259] (-) TimerEvent: {}
+[19.761832] (-) TimerEvent: {}
+[19.862444] (-) TimerEvent: {}
+[19.962942] (-) TimerEvent: {}
+[20.063218] (-) TimerEvent: {}
+[20.163570] (-) TimerEvent: {}
+[20.264076] (-) TimerEvent: {}
+[20.364578] (-) TimerEvent: {}
+[20.465111] (-) TimerEvent: {}
+[20.565627] (-) TimerEvent: {}
+[20.666193] (-) TimerEvent: {}
+[20.766798] (-) TimerEvent: {}
+[20.867378] (-) TimerEvent: {}
+[20.967907] (-) TimerEvent: {}
+[21.068457] (-) TimerEvent: {}
+[21.168970] (-) TimerEvent: {}
+[21.269475] (-) TimerEvent: {}
+[21.370060] (-) TimerEvent: {}
+[21.470622] (-) TimerEvent: {}
+[21.571146] (-) TimerEvent: {}
+[21.671695] (-) TimerEvent: {}
+[21.772199] (-) TimerEvent: {}
+[21.872867] (-) TimerEvent: {}
+[21.973408] (-) TimerEvent: {}
+[22.073983] (-) TimerEvent: {}
+[22.174478] (-) TimerEvent: {}
+[22.274831] (-) TimerEvent: {}
+[22.375440] (-) TimerEvent: {}
+[22.475781] (-) TimerEvent: {}
+[22.576340] (-) TimerEvent: {}
+[22.676949] (-) TimerEvent: {}
+[22.777486] (-) TimerEvent: {}
+[22.878004] (-) TimerEvent: {}
+[22.978604] (-) TimerEvent: {}
+[23.071099] (village_interfaces) CommandEnded: {'returncode': 0}
+[23.078716] (-) TimerEvent: {}
+[23.118227] (village_interfaces) JobProgress: {'identifier': 'village_interfaces', 'progress': 'install'}
+[23.125165] (village_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces'], 'cwd': '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'amber'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2378'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('LESS', '-R'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/amber'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/amber/code/Notes/Ros/ros_learn/town_ws/src'), ('TERM_PROGRAM_VERSION', '1.65.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/amber/.nvm/versions/node/v16.14.0/bin'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/amber/.nvm/versions/node/v16.14.0/include/node'), ('ZSH', '/home/amber/.oh-my-zsh'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1811'), ('P9K_TTY', 'old'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '999085'), ('NVM_DIR', '/home/amber/.nvm'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'amber'), ('JOURNAL_STREAM', '8:60479'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'amber'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/amber/.nvm/versions/node/v16.14.0/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/amber/anaconda3/condabin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/amber/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/amber:@/tmp/.ICE-unix/2423,unix/amber:/tmp/.ICE-unix/2423'), ('INVOCATION_ID', '3a78e6fdfe354a11ba7d049b964715ea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6ebed8e538.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/amber/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/amber/anaconda3/bin/conda'), ('_P9K_TTY', '/dev/pts/1'), ('CLUTTER_IM_MODULE', 'fcitx'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy')]), 'shell': False}
+[23.131777] (village_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.131928] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces\n'}
+[23.132003] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.132088] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.132164] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.h\n'}
+[23.132241] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.132297] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[23.132360] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.h\n'}
+[23.132426] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.h\n'}
+[23.132481] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.c\n'}
+[23.132547] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.h\n'}
+[23.132607] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh\n'}
+[23.132664] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv\n'}
+[23.132714] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so\n'}
+[23.132789] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""\n'}
+[23.132859] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.132914] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.132991] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext\n'}
+[23.133071] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel__rosidl_typesupport_connext_c.h\n'}
+[23.133129] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_connext_c__visibility_control.h\n'}
+[23.133187] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_c.so\n'}
+[23.133476] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_c.so" to ""\n'}
+[23.133553] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/dds_connext\n'}
+[23.133653] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/dds_connext/Novel_.idl\n'}
+[23.133721] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.133781] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.133847] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp\n'}
+[23.133907] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext\n'}
+[23.133967] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Support.h\n'}
+[23.134026] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_.h\n'}
+[23.134078] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Support.cxx\n'}
+[23.134138] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_.cxx\n'}
+[23.134192] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Plugin.h\n'}
+[23.134255] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Plugin.cxx\n'}
+[23.134309] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_connext_cpp__visibility_control.h\n'}
+[23.134361] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_cpp.so\n'}
+[23.134464] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_cpp.so" to ""\n'}
+[23.134535] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.134599] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.134653] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.134718] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[23.134776] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h\n'}
+[23.134828] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[23.134885] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.134959] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.135033] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.135097] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.135151] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[23.135216] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps\n'}
+[23.135384] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.135446] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.135541] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.135606] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.135683] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.135748] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.135808] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[23.135869] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h\n'}
+[23.135922] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.c\n'}
+[23.135978] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[23.136030] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.136093] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so\n'}
+[23.136210] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[23.136277] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.136343] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.136407] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.hpp\n'}
+[23.136470] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[23.136539] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.hpp\n'}
+[23.136599] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__builder.hpp\n'}
+[23.136661] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__traits.hpp\n'}
+[23.136724] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces\n'}
+[23.136779] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg\n'}
+[23.136830] (village_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail\n'}
+[23.136882] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.136934] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.cpp\n'}
+[23.136997] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[23.137063] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.137116] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so\n'}
+[23.137200] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[23.137264] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh\n'}
+[23.137327] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv\n'}
+[23.137431] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py\n'}
+[23.157711] (village_interfaces) StdoutLine: {'line': b"Compiling '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...\n"}
+[23.160106] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg\n'}
+[23.160220] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel.py\n'}
+[23.160309] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py\n'}
+[23.160386] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel_s.c\n'}
+[23.160502] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.160885] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.161019] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.161338] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.161459] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.161798] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.161902] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[23.162218] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[23.162312] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so\n'}
+[23.162430] (village_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so" to ""\n'}
+[23.162490] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl\n'}
+[23.162550] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg\n'}
+[23.162641] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces\n'}
+[23.162738] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces\n'}
+[23.162812] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh\n'}
+[23.162882] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv\n'}
+[23.162951] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh\n'}
+[23.163018] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv\n'}
+[23.163086] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash\n'}
+[23.163154] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh\n'}
+[23.163222] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh\n'}
+[23.163357] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv\n'}
+[23.163427] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/package.dsv\n'}
+[23.163532] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces\n'}
+[23.163658] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake\n'}
+[23.163746] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.163860] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.163942] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.164048] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[23.164131] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.164237] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake\n'}
+[23.164356] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.164440] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.164549] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[23.164638] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.164716] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[23.164790] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.164870] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.164949] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.165024] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.165098] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.165171] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.165248] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake\n'}
+[23.165307] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake\n'}
+[23.165371] (village_interfaces) StdoutLine: {'line': b'-- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/package.xml\n'}
+[23.166877] (village_interfaces) CommandEnded: {'returncode': 0}
+[23.178817] (-) TimerEvent: {}
+[23.223966] (village_interfaces) JobEnded: {'identifier': 'village_interfaces', 'rc': 0}
+[23.224456] (-) EventReactorShutdown: {}

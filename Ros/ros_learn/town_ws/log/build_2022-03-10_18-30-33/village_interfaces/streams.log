@@ -1,0 +1,264 @@
+[0.009s] Invoking command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces
+[0.047s] -- The C compiler identification is GNU 9.4.0
+[0.095s] -- The CXX compiler identification is GNU 9.4.0
+[0.098s] -- Check for working C compiler: /usr/bin/cc
+[0.156s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.157s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.310s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.393s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.413s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.413s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.542s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.565s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.568s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.122s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.143s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.286s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.308s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.532s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.862s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.863s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.881s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.881s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.882s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.882s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.896s] -- Found PythonExtra: .so  
+[1.964s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.979s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.980s] -- Added test 'lint_cmake' to check CMake code style
+[1.980s] -- Added test 'xmllint' to check XML markup files
+[1.984s] -- Configuring done
+[2.048s] -- Generating done
+[2.051s] -- Build files have been written to: /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces
+[2.060s] Invoked command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces
+[2.062s] Invoking command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces -- -j16 -l16
+[2.091s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.091s] [35m[1mScanning dependencies of target village_interfaces__dds_connext_idl[0m
+[2.091s] [35m[1mScanning dependencies of target village_interfaces__cpp[0m
+[2.099s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.099s] [  6%] [34m[1mGenerating DDS interfaces[0m
+[2.245s] [35m[1mScanning dependencies of target village_interfaces__rosidl_generator_c[0m
+[2.253s] [  6%] Built target village_interfaces__cpp
+[2.254s] [  8%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.o[0m
+[2.255s] [  8%] Built target village_interfaces__dds_connext_idl
+[2.260s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.260s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.260s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.263s] [ 16%] [34m[1mGenerating C++ type support for RTI Connext (using '/opt/rti.com/rti_connext_dds-5.3.1/bin/rtiddsgen_server')[0m
+[2.281s] [ 18%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[2.311s] [ 18%] Built target village_interfaces__rosidl_generator_c
+[2.319s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.319s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.404s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.408s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[2.410s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.414s] [ 24%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o[0m
+[2.418s] [ 26%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o[0m
+[2.423s] [ 28%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o[0m
+[2.457s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[2.466s] [ 30%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o[0m
+[2.471s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[2.482s] [ 32%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o[0m
+[2.487s] [ 34%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[2.506s] [ 36%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.515s] [ 36%] Built target village_interfaces__rosidl_typesupport_c
+[2.528s] [ 36%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[2.605s] [ 38%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.640s] [ 40%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[2.649s] [ 40%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[2.668s] [ 40%] Built target village_interfaces__rosidl_typesupport_cpp
+[2.740s] [ 42%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.803s] [ 42%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.814s] [ 44%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.988s] INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...
+[2.988s] INFO com.rti.ndds.nddsgen.Main Done
+[3.014s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_connext_cpp[0m
+[3.032s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.048s] [ 46%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o[0m
+[3.070s] [ 51%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o[0m
+[3.071s] [ 51%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o[0m
+[3.071s] [ 53%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.o[0m
+[3.072s] [ 55%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o[0m
+[3.356s] [ 57%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.413s] [ 57%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[3.457s] [ 59%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_connext_cpp.so[0m
+[3.596s] [ 61%] Built target village_interfaces__rosidl_typesupport_connext_cpp
+[3.604s] [ 63%] [34m[1mGenerating C type support for RTI Connext[0m
+[3.736s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_connext_c[0m
+[3.774s] [ 71%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o[0m
+[3.775s] [ 71%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.cpp.o[0m
+[3.775s] [ 71%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o[0m
+[3.775s] [ 71%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o[0m
+[4.125s] [ 73%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_connext_c.so[0m
+[4.303s] [ 77%] Built target village_interfaces__rosidl_typesupport_connext_c
+[4.310s] [35m[1mScanning dependencies of target village_interfaces[0m
+[4.317s] [ 77%] Built target village_interfaces
+[4.325s] [35m[1mScanning dependencies of target village_interfaces__py[0m
+[4.333s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.568s] [ 79%] Built target village_interfaces__py
+[4.575s] [35m[1mScanning dependencies of target village_interfaces__python[0m
+[4.588s] [ 81%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o[0m
+[4.644s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so[0m
+[4.673s] [ 83%] Built target village_interfaces__python
+[4.681s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.681s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[4.681s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.681s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_connext_c__pyext[0m
+[4.693s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.693s] [ 87%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.694s] [ 89%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.698s] [ 91%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_connext_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c.o[0m
+[4.743s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.743s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.747s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.760s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.769s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[4.770s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.793s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.828s] [100%] Built target village_interfaces__rosidl_typesupport_connext_c__pyext
+[23.070s] Invoked command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces -- -j16 -l16
+[23.125s] Invoking command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces
+[23.131s] -- Install configuration: ""
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.h
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.h
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.h
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__functions.c
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.h
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[23.131s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[23.132s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[23.132s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[23.132s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.132s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.132s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext
+[23.132s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel__rosidl_typesupport_connext_c.h
+[23.132s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_connext_c__visibility_control.h
+[23.132s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_c.so
+[23.132s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_c.so" to ""
+[23.132s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/dds_connext
+[23.132s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/dds_connext/Novel_.idl
+[23.133s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.133s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+[23.133s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Support.h
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_.h
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Support.cxx
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_.cxx
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Plugin.h
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/dds_connext/Novel_Plugin.cxx
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_connext_cpp__visibility_control.h
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_cpp.so
+[23.133s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_connext_cpp.so" to ""
+[23.133s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.133s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.133s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.134s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[23.134s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_c.h
+[23.134s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[23.134s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[23.134s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.134s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.134s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.134s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[23.134s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps
+[23.134s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_fastrtps_cpp.hpp
+[23.134s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[23.134s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.134s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.134s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.135s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_c.h
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.c
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[23.135s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[23.135s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[23.135s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.135s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/novel.hpp
+[23.135s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__struct.hpp
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__builder.hpp
+[23.135s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__traits.hpp
+[23.136s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces
+[23.136s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg
+[23.136s] -- Up-to-date: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail
+[23.136s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__rosidl_typesupport_introspection_cpp.hpp
+[23.136s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/include/village_interfaces/msg/detail/novel__type_support.cpp
+[23.136s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[23.136s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[23.136s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[23.136s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[23.136s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[23.136s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[23.136s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py
+[23.157s] Compiling '/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...
+[23.159s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg
+[23.159s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel.py
+[23.159s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py
+[23.159s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_novel_s.c
+[23.159s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so
+[23.160s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so" to ""
+[23.160s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[23.160s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[23.160s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[23.161s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[23.161s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[23.161s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[23.161s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so
+[23.161s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__python.so" to ""
+[23.161s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.idl
+[23.161s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/msg/Novel.msg
+[23.161s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/path.sh
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.bash
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.sh
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/package.dsv
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[23.162s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[23.163s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[23.164s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/share/village_interfaces/package.xml
+[23.166s] Invoked command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces

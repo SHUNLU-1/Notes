@@ -13,4 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 village_li/__init__.py
+village_li/li3.py
 village_li/li4.py
