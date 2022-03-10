@@ -9,6 +9,7 @@ sudo apt install ros-foxy-turtlesim
 ros2 pkg executables turtlesim
 ```
 看到如下内容说明安装成功：
+
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/993c2d0dbc1513a408-04-14-31-51.png)
 
 ## 2. 启动海龟仿真器
@@ -18,8 +19,11 @@ ros2 pkg executables turtlesim
 ros2 run turtlesim turtlesim_node
 ```
 很快可以看到一个打开的仿真器界面，里边会随机使用一个ROS2的logo作为显示海龟的位置：
+
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/4f90f61a25adb37e08-04-14-31-51.png)
+
 终端中可以看到海龟的名字和在仿真器坐标系下的位置：
+
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/970eaab5207f49b808-04-14-31-51.png)
 
 接下来让海龟动起来，打开一个新的终端，输入如下命令：
