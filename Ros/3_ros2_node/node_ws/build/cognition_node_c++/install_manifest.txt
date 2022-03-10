@@ -1,0 +1,1 @@
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node_c++/lib/cognition_node_c++/cognition_node_c++

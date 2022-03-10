@@ -1,0 +1,3 @@
+[console_scripts]
+cognition_node = cognition_node.cognition_node:main
+

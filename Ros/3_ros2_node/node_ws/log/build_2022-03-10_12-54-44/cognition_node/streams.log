@@ -1,0 +1,37 @@
+[0.540s] Invoking command in '/home/amber/code/Notes/Ros/3_ros2_node/node_ws/src/cognition_node': PYTHONPATH=/home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cognition_node build --build-base /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build install --prefix /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node --record /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/install.log --single-version-externally-managed
+[0.687s] running egg_info
+[0.688s] creating ../../build/cognition_node/cognition_node.egg-info
+[0.688s] writing ../../build/cognition_node/cognition_node.egg-info/PKG-INFO
+[0.688s] writing dependency_links to ../../build/cognition_node/cognition_node.egg-info/dependency_links.txt
+[0.688s] writing entry points to ../../build/cognition_node/cognition_node.egg-info/entry_points.txt
+[0.688s] writing requirements to ../../build/cognition_node/cognition_node.egg-info/requires.txt
+[0.688s] writing top-level names to ../../build/cognition_node/cognition_node.egg-info/top_level.txt
+[0.690s] writing manifest file '../../build/cognition_node/cognition_node.egg-info/SOURCES.txt'
+[0.714s] reading manifest file '../../build/cognition_node/cognition_node.egg-info/SOURCES.txt'
+[0.714s] writing manifest file '../../build/cognition_node/cognition_node.egg-info/SOURCES.txt'
+[0.714s] running build
+[0.714s] running build_py
+[0.714s] creating /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build
+[0.714s] creating /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build/lib
+[0.714s] creating /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build/lib/cognition_node
+[0.714s] copying cognition_node/cognition_node.py -> /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build/lib/cognition_node
+[0.714s] copying cognition_node/__init__.py -> /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build/lib/cognition_node
+[0.714s] running install
+[0.715s] running install_lib
+[0.716s] creating /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages/cognition_node
+[0.716s] copying /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build/lib/cognition_node/cognition_node.py -> /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages/cognition_node
+[0.716s] copying /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build/lib/cognition_node/__init__.py -> /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages/cognition_node
+[0.716s] byte-compiling /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages/cognition_node/cognition_node.py to cognition_node.cpython-38.pyc
+[0.717s] byte-compiling /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages/cognition_node/__init__.py to __init__.cpython-38.pyc
+[0.717s] running install_data
+[0.717s] creating /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/share/ament_index
+[0.717s] creating /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/share/ament_index/resource_index
+[0.718s] creating /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/share/ament_index/resource_index/packages
+[0.718s] copying resource/cognition_node -> /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/share/ament_index/resource_index/packages
+[0.718s] copying package.xml -> /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/share/cognition_node
+[0.718s] running install_egg_info
+[0.719s] Copying ../../build/cognition_node/cognition_node.egg-info to /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages/cognition_node-0.0.0-py3.8.egg-info
+[0.719s] running install_scripts
+[0.731s] Installing node script to /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/cognition_node
+[0.731s] writing list of installed files to '/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/install.log'
+[0.746s] Invoked command in '/home/amber/code/Notes/Ros/3_ros2_node/node_ws/src/cognition_node' returned '0': PYTHONPATH=/home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cognition_node build --build-base /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/build install --prefix /home/amber/code/Notes/Ros/3_ros2_node/node_ws/install/cognition_node --record /home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node/install.log --single-version-externally-managed

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/cognition_node/cognition_node.egg-info/PKG-INFO
+../../build/cognition_node/cognition_node.egg-info/SOURCES.txt
+../../build/cognition_node/cognition_node.egg-info/dependency_links.txt
+../../build/cognition_node/cognition_node.egg-info/entry_points.txt
+../../build/cognition_node/cognition_node.egg-info/requires.txt
+../../build/cognition_node/cognition_node.egg-info/top_level.txt
+../../build/cognition_node/cognition_node.egg-info/zip-safe
+cognition_node/__init__.py
+cognition_node/cognition_node.py
+resource/cognition_node
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

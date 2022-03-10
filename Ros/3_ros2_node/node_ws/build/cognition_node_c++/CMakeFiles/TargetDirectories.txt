@@ -1,0 +1,10 @@
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/install/local.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/install.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/list_install_components.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/rebuild_cache.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/edit_cache.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/test.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/cognition_node_c++.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/install/strip.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/cognition_node_c++_uninstall.dir
+/home/amber/code/Notes/Ros/3_ros2_node/node_ws/build/cognition_node_c++/CMakeFiles/uninstall.dir
