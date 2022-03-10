@@ -89,6 +89,93 @@ ros2 topic hz /turtle1/pose
 ```
 很快就可以看到turtlesim节点发布pose话题的频率啦：  
 
+# 二、理解服务（Service）
+
+之前讲的话题通信是基于订阅/发布机制的，无论有没有订阅者，发布者都会周期发布数据，这种模式适合持续数据的收发，比如传感器数据。机器人系统中还有另外一些配置性质的数据，并不需要周期处理，此时就要用到另外一种ROS通信方式——服务（Service）。   服务是基于客户端/服务器模型的通信机制，服务器端只在接收到客户端请求时才会提供反馈数据。  
+![](https://www.guyuehome.com/Uploads/wp/2020/08/12ff0fde3189ce6608-10-10-16-20.gif)
+![](https://www.guyuehome.com/Uploads/wp/2020/08/03fd6875795f049808-10-10-16-20.gif)
+
+## 1.启动海龟仿真器
+还是用这两个命令来启动海龟仿真器：
+```bash
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+```
+## 2.查看服务列表
+在小海龟背后，有哪些服务呢？可以使用“ros2 service list”命令来查看一下：  
+![](https://www.guyuehome.com/Uploads/wp/2020/08/264c5303dfaa9ed908-10-10-16-20.png)
+在列表中可以看到每个节点都有6个以“parameters”结尾的服务，在ROS2中，几乎每一个节点都会有这几个服务，主要是用来设置一些参数的，算是节点的默认服务配置，这里我们暂时忽略这些默认的服务，主要看其他几个海龟仿真器提供的功能性质的服务.
+
+## 3.ros2服务类型
+类似话题中的消息，服务中完成通信的数据也是有数据结构的，只不过是有请求和应答两部分的数据组成的。我们可以通过以下命令来查看某一个服务的数据结构：
+```bash
+ros2 service type <service_name>
+```
+以/clear服务为例，可以这样来试试：
+```
+ros2 service type /clear
+```
+看到的服务数据结构是这样的：
+![](https://www.guyuehome.com/Uploads/wp/2020/08/612bdfff629a984f08-10-10-16-20.png)
+Empty类型表示服务请求部分的数据是没有的，发送请求的时候不需要任何数据。  
+
+### 3.1 ros2 service list -t
+类似查看所有节点的话题消息类型，也可以用类似的方式查看所有服务的数据类型，需要在list命令后边加上“--show-types”配置，或者简写为“-t”。  
+![]{https://www.guyuehome.com/Uploads/wp/2020/08/99f72292802c0d8908-10-10-16-20.png}
+
+## 4.查找提供某类型数据的所有服务
+
+ROS2还允许查看所有提供同样数据类型的的服务，可以使用如下命令：
+```bash
+ros2 service find <type_name>
+```  
+比如可以查找所有提供std_srvs/srv/Empty数据类型的服务：
+```bash
+ros2 service find std_srvs/srv/Empty
+```
+可以看到：
+![](https://www.guyuehome.com/Uploads/wp/2020/08/e880233e478a601008-10-10-16-20.png)
+## 5.查看服务数据类型的具体结构
+现在我们已经可以看到某一个服务的数据类型了，那这种数据类型具体的数据结构是什么样的呢？可以用这个命令：
+```bash
+ros2 interface show <type_name>.srv
+```
+比如：
+```bash
+ros2 interface show std_srvs/srv/Empty.srv
+```
+终端中会显示：
+![](https://www.guyuehome.com/Uploads/wp/2020/08/a0791d090091e13c08-10-10-16-20.png)
+
+这里的“---”在服务的数据结构中是用来分割请求和应答两个部分的数据，这里只所以只有“---”，是应为Empty的请求和应答都不需要任何数据描述，类似一个出发信号。   我们来看另外一个服务的数据类型Spawn，之前已经根据list命令看到该服务的数据类型是 turtlesim/srv/Spawn：
+ros2 interface show turtlesim/srv/Spawn.srv
+终端中可以看到：
+![](https://www.guyuehome.com/Uploads/wp/2020/08/16814d9c9e2ca35408-10-10-16-20.png)
+
+这里可以看到，在Spawn服务的请求部分，由必须的x、y、theta和可选的name组成，应答数据则是name这个字符串。  
+
+## 6.通过终端发送服务请求
+我们已经了解了如何查看服务的数据类型和结构，接下来通过终端尝试发送一个服务请求。
+```bash
+ros2 service call <service_name> <service_type> <arguments>
+```
+<arguments>部分是可选的，比如Empty类型的服务就没有任何参数：
+```bash
+ros2 service call /clear std_srvs/srv/Empty
+```
+这个服务只是出发一个信号，让海龟仿真器清除海龟后边的运动轨迹，不需要传输什么数据：
+![](https://www.guyuehome.com/Uploads/wp/2020/08/30e79df8941f53ae08-10-10-16-20.png)
+
+我们再来试试Spawn服务，这个服务可以产生一只新的海龟，<arguments>部分就需要输入上边看到的请求数据了：
+```bash
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"
+```
+终端中可以看到：
+![](https://www.guyuehome.com/Uploads/wp/2020/08/1787b81bb59c14d308-10-10-16-20.png)
+
+海龟仿真器中立刻就可以看到一只新的海龟啦：  
+![](https://www.guyuehome.com/Uploads/wp/2020/08/f450f63de37ad2d708-10-10-16-20.png)
+请求数据中的x、y、theta表示海龟的横纵坐标和旋转角度，name表示新生海龟的名字。   好啦，这就是ROS2中的服务概念啦，简而言之，客户端发送请求，服务端完成处理后反馈应答，通信只会交互一次数据，不像话题是周期发送数据的。  
 
 
 
