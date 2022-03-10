@@ -134,3 +134,7 @@ else
   source /opt/ros/foxy/setup.bash
 fi
 ```
+do this
+```bash
+source ~/.bashrc
+```
