@@ -1,4 +1,5 @@
-# Ubuntu20.04安装ROS2 Foxy
+# 一、Ubuntu20.04安装ROS2 Foxy
+[可以参考官方教程](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/)
 ## 1. 更换国内源
 ```bash
 vi /etc/apt/sources.list
@@ -67,4 +68,69 @@ RMW_IMPLEMENTATION=rmw_connext_cpp
 如果哪一天不喜欢了，还可以这样删除：
 ```bash
 sudo apt remove ros-foxy-* && sudo apt autoremove
+```
+
+# 二、Ubuntu20.04 安装 ROS1 Noetic
+[可以参考官方教程](http://wiki.ros.org/noetic/Installation/Ubuntu)
+
+## 2.1、设置你的sources.list
+```bash
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```
+## 2.2、Set up your keys
+```bash
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+```
+## 2.3、Installation
++ Desktop-Full Install: (Recommended) : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages
+```bash
+sudo apt install ros-noetic-desktop-full
+```
++ Desktop Install: Everything in ROS-Base plus tools like rqt and rviz
+```bash
+sudo apt install ros-noetic-desktop
+```
++ ROS-Base: (Bare Bones) ROS packaging, build, and communication libraries. No GUI tools.
+```bash
+sudo apt install ros-noetic-ros-base
+```
+## 2.4、Environment setup
+```bash
+source /opt/ros/noetic/setup.bash
+```
+## 2.5、Dependencies for building packages
+
+Up to now you have installed what you need to run the core ROS packages. To create and manage your own ROS workspaces, there are various tools and requirements that are distributed separately. For example, rosinstall is a frequently used command-line tool that enables you to easily download many source trees for ROS packages with one command.
+To install this tool and other dependencies for building ROS packages, run:
+```bash
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```
+
+Before you can use many ROS tools, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS. If you have not yet installed rosdep, do so as follows.
+```bash
+sudo apt install python3-rosdep
+```
+
+With the following, you can initialize rosdep.
+```bash
+sudo rosdep init
+rosdep update
+```
+
+# 三、ros1和ros2共存配置环境变量
+
+```bash
+sudo gedit ~/.bashrc
+```
+打开.bashrc文本文件后在末尾加上如下代码，完成环境变量设置。
+```bash
+#source /opt/ros/noetic/setup.bash
+echo "ros noetic(1) or ros2 foxy(2)?"
+read edition
+if [ "$edition" -eq "1" ];then
+  source /opt/ros/noetic/setup.bash
+else
+  source /opt/ros/foxy/setup.bash
+fi
 ```
