@@ -1,0 +1,9 @@
+[01m[K/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_wang/src/wang2.cpp:2:14:[m[K [01;31m[Kerror: [m[Ktoken ";" is not valid in preprocessor expressions
+    2 | #define oop 0[01;31m[K;[m[K
+      |              [01;31m[K^[m[K
+[01m[K/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_wang/src/wang2.cpp:4:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Koop[m[K’
+    4 | #if [01;36m[Koop[m[K
+      |     [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/wang2_node.dir/build.make:63：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/wang2_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

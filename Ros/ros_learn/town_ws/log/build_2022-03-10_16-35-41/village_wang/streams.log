@@ -1,0 +1,26 @@
+[0.151s] Invoking command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(tensorflow) /usr/bin/cmake --build /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang -- -j16 -l16
+[0.177s] [35m[1mScanning dependencies of target wang2_node[0m
+[0.193s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[1.246s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[1.308s] [100%] Built target wang2_node
+[1.315s] Invoked command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(tensorflow) /usr/bin/cmake --build /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang -- -j16 -l16
+[1.340s] Invoking command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(tensorflow) /usr/bin/cmake --install /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang
+[1.352s] -- Install configuration: ""
+[1.353s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[1.353s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[1.353s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[1.353s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[1.353s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[1.353s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/package.dsv
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[1.354s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[1.355s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/share/village_wang/package.xml
+[1.355s] -- Installing: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/lib/village_wang/wang2_node
+[1.355s] -- Set runtime path of "/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[1.358s] Invoked command in '/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_li:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(tensorflow) /usr/bin/cmake --install /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang
