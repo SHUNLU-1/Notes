@@ -66,6 +66,8 @@ rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: /opt/ros/foxy/share/rosidl_typesupport_connext_cpp/resource/srv__rosidl_typesupport_connext_cpp.hpp.em
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: /opt/ros/foxy/share/rosidl_typesupport_connext_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: rosidl_adapter/village_interfaces/msg/Novel.idl
+rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: rosidl_adapter/village_interfaces/srv/BorrowMoney.idl
+rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: rosidl_adapter/village_interfaces/srv/SellNovel.idl
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: /opt/ros/foxy/share/sensor_msgs/msg/BatteryState.idl
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: /opt/ros/foxy/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: /opt/ros/foxy/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -156,11 +158,25 @@ rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl
+rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for RTI Connext (using '/opt/rti.com/rti_connext_dds-5.3.1/bin/rtiddsgen_server')"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_connext_cpp/rosidl_typesupport_connext_cpp --generator-arguments-file /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp__arguments.json --dds-interface-base-path /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_dds_idl --idl-pp /opt/rti.com/rti_connext_dds-5.3.1/bin/rtiddsgen_server
 
 rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/borrow_money__rosidl_typesupport_connext_cpp.hpp: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/borrow_money__rosidl_typesupport_connext_cpp.hpp
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/sell_novel__rosidl_typesupport_connext_cpp.hpp: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/sell_novel__rosidl_typesupport_connext_cpp.hpp
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp
 
 rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.h: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.h
@@ -180,6 +196,42 @@ rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.
 rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx
 
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.h: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.h
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.h: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.h
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.h: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.h
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.h: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.h
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.h: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.h
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.h: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.h
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx
+
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_dds_idl/__init__.py
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/rosidl_generator_dds_idl/resource/action.idl.em
@@ -187,6 +239,8 @@ rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/rosidl_generator_dds_idl/resource/msg.idl.em
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/rosidl_generator_dds_idl/resource/srv.idl.em
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: rosidl_adapter/village_interfaces/msg/Novel.idl
+rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: rosidl_adapter/village_interfaces/srv/BorrowMoney.idl
+rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: rosidl_adapter/village_interfaces/srv/SellNovel.idl
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -279,6 +333,12 @@ rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating DDS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl --additional-service-templates --generator-arguments-file /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_dds_idl__dds_connext__arguments.json --subfolders dds_connext --extension
 
+rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl
+
+rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl
+
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.o: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.o"
@@ -292,9 +352,35 @@ CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesup
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.s
 
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.s
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.s
+
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx
 
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.i: cmake_force
@@ -307,7 +393,7 @@ CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesup
 
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx
 
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.i: cmake_force
@@ -320,7 +406,7 @@ CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesup
 
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx
 
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.i: cmake_force
@@ -331,20 +417,114 @@ CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesup
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.s
 
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/flags.make
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o -c /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -E /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx > CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i
+
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-strict-aliasing -Wno-unused-parameter -S /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx -o CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s
+
 # Object files for target village_interfaces__rosidl_typesupport_connext_cpp
 village_interfaces__rosidl_typesupport_connext_cpp_OBJECTS = \
 "CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o" \
 "CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o" \
 "CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o" \
-"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o"
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o" \
+"CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o"
 
 # External object files for target village_interfaces__rosidl_typesupport_connext_cpp
 village_interfaces__rosidl_typesupport_connext_cpp_EXTERNAL_OBJECTS =
 
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx.o
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o
+libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: /opt/ros/foxy/lib/librmw.so
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: /opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0/libnddsc.so
@@ -387,7 +567,7 @@ libvillage_interfaces__rosidl_typesupport_connext_cpp.so: /opt/ros/foxy/lib/libr
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: /opt/ros/foxy/lib/librcpputils.so
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: /opt/ros/foxy/lib/librcutils.so
 libvillage_interfaces__rosidl_typesupport_connext_cpp.so: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libvillage_interfaces__rosidl_typesupport_connext_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX shared library libvillage_interfaces__rosidl_typesupport_connext_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -401,13 +581,31 @@ CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/clean:
 
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/novel__rosidl_typesupport_connext_cpp.hpp
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/borrow_money__rosidl_typesupport_connext_cpp.hpp
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/sell_novel__rosidl_typesupport_connext_cpp.hpp
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.h
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.h
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Plugin.cxx
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.h
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.h
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.h
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.h
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.h
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.h
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.h
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx
 CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl
+CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl
 	cd /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces /home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/depend
 

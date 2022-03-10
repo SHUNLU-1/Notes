@@ -1,0 +1,50 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from village_interfaces:srv/SellNovel.idl
+// generated code does not contain a copyright notice
+
+#ifndef __village_interfaces__srv__sell_novel__idl__
+#define __village_interfaces__srv__sell_novel__idl__
+
+
+module village_interfaces {
+
+module srv {
+
+module dds_ {
+
+
+struct SellNovel_Request_ {
+unsigned long money_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module village_interfaces
+
+
+module village_interfaces {
+
+module srv {
+
+module dds_ {
+
+
+struct SellNovel_Response_ {
+sequence<string> novels_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module village_interfaces
+
+
+#endif  // __village_interfaces__srv__sell_novel__idl__

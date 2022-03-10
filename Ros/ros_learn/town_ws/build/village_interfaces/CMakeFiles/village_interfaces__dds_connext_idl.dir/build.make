@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_in
 include CMakeFiles/village_interfaces__dds_connext_idl.dir/progress.make
 
 CMakeFiles/village_interfaces__dds_connext_idl: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+CMakeFiles/village_interfaces__dds_connext_idl: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl
+CMakeFiles/village_interfaces__dds_connext_idl: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl
 
 
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl
@@ -63,6 +65,8 @@ rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/rosidl_generator_dds_idl/resource/msg.idl.em
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/rosidl_generator_dds_idl/resource/srv.idl.em
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: rosidl_adapter/village_interfaces/msg/Novel.idl
+rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: rosidl_adapter/village_interfaces/srv/BorrowMoney.idl
+rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: rosidl_adapter/village_interfaces/srv/SellNovel.idl
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros/foxy/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -155,8 +159,16 @@ rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl: /opt/ros
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating DDS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl --additional-service-templates --generator-arguments-file /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_dds_idl__dds_connext__arguments.json --subfolders dds_connext --extension
 
+rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl
+
+rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl
+
 village_interfaces__dds_connext_idl: CMakeFiles/village_interfaces__dds_connext_idl
 village_interfaces__dds_connext_idl: rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl
+village_interfaces__dds_connext_idl: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl
+village_interfaces__dds_connext_idl: rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl
 village_interfaces__dds_connext_idl: CMakeFiles/village_interfaces__dds_connext_idl.dir/build.make
 
 .PHONY : village_interfaces__dds_connext_idl

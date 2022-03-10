@@ -1,0 +1,7 @@
+[01m[K/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_wang/src/wang2.cpp:[m[K In member function ‘[01m[Kvoid SingleDogNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_wang/src/wang2.cpp:75:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   75 |         [01;31m[Kpub_[m[K->publish(money);
+      |         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/wang2_node.dir/build.make:63：CMakeFiles/wang2_node.dir/src/wang2.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/wang2_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,1 +1,3 @@
 /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl
+/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:srv/BorrowMoney.idl
+/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:srv/SellNovel.idl

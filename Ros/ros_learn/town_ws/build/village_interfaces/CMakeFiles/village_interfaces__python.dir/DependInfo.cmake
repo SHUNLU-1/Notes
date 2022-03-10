@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/msg/_novel_s.c" "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.o"
+  "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c" "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o"
+  "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c" "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

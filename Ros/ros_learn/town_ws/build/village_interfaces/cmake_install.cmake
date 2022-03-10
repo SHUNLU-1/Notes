@@ -108,6 +108,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv/dds_connext" TYPE DIRECTORY FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/village_interfaces" TYPE DIRECTORY FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_typesupport_connext_cpp/village_interfaces/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
 
@@ -317,6 +321,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/village_interfaces/srv" TYPE DIRECTORY FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_py/village_interfaces/srv/" REGEX "/[^/]*\\.py$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHECK
@@ -436,7 +444,39 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces/srv/BorrowMoney.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces/srv/SellNovel.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/msg" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces/msg/Novel.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces/srv/BorrowMoney.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_cmake/srv/BorrowMoney_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_cmake/srv/BorrowMoney_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces/srv/SellNovel.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_cmake/srv/SellNovel_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/village_interfaces/srv" TYPE FILE FILES "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_cmake/srv/SellNovel_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

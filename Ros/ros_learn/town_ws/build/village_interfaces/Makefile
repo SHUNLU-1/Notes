@@ -454,6 +454,60 @@ rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.s:
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.s
 .PHONY : rosidl_generator_c/village_interfaces/msg/detail/novel__functions.c.s
 
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.o: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o
+
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.o
+
+# target to build an object file
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.i: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.i
+
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.i
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.i
+
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.s: rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.s
+
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.s
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.s
+
+rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.o: rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o
+
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.o
+
+# target to build an object file
+rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.o
+
+rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.i: rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.i
+
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.i
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.i
+
+rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.s: rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.s
+
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.s
+.PHONY : rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.c.s
+
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o
 
 .PHONY : rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.o
@@ -589,6 +643,60 @@ rosidl_generator_py/village_interfaces/msg/_novel_s.c.s:
 	$(MAKE) -f CMakeFiles/village_interfaces__python.dir/build.make CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_novel_s.c.s
 .PHONY : rosidl_generator_py/village_interfaces/msg/_novel_s.c.s
 
+rosidl_generator_py/village_interfaces/srv/_borrow_money_s.o: rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o
+
+.PHONY : rosidl_generator_py/village_interfaces/srv/_borrow_money_s.o
+
+# target to build an object file
+rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__python.dir/build.make CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o
+.PHONY : rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o
+
+rosidl_generator_py/village_interfaces/srv/_borrow_money_s.i: rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.i
+
+.PHONY : rosidl_generator_py/village_interfaces/srv/_borrow_money_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__python.dir/build.make CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.i
+.PHONY : rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.i
+
+rosidl_generator_py/village_interfaces/srv/_borrow_money_s.s: rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.s
+
+.PHONY : rosidl_generator_py/village_interfaces/srv/_borrow_money_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__python.dir/build.make CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.s
+.PHONY : rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.s
+
+rosidl_generator_py/village_interfaces/srv/_sell_novel_s.o: rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o
+
+.PHONY : rosidl_generator_py/village_interfaces/srv/_sell_novel_s.o
+
+# target to build an object file
+rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__python.dir/build.make CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o
+.PHONY : rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.o
+
+rosidl_generator_py/village_interfaces/srv/_sell_novel_s.i: rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.i
+
+.PHONY : rosidl_generator_py/village_interfaces/srv/_sell_novel_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__python.dir/build.make CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.i
+.PHONY : rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.i
+
+rosidl_generator_py/village_interfaces/srv/_sell_novel_s.s: rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.s
+
+.PHONY : rosidl_generator_py/village_interfaces/srv/_sell_novel_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__python.dir/build.make CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.s
+.PHONY : rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c.s
+
 rosidl_typesupport_c/village_interfaces/msg/novel__type_support.o: rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/village_interfaces/msg/novel__type_support.o
@@ -616,6 +724,60 @@ rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/village_interfaces/msg/novel__type_support.cpp.s
 
+rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.o: rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o
+
+rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.i: rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.i
+
+rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.s: rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.s
+
+rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.o: rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.o
+
+rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.i: rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.i
+
+rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.s: rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.cpp.s
+
 rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.o: rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.o
@@ -642,6 +804,60 @@ rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_supp
 rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.cpp.s
+
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.o: rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.o
+
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.i: rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.i
+
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.s: rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.cpp.s
+
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.o: rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.o
+
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.i: rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.i
+
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.s: rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.cpp.s
 
 rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.o: rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.cxx.o
 
@@ -760,6 +976,240 @@ rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_su
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.s
 .PHONY : rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.cpp.s
 
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.s
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.s
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.s
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.s
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.s
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.s
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.cpp.s
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.o: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.o
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.i: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.i
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.i
+
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.s: rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.s
+.PHONY : rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.cpp.s
+
 rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.o: rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.o
@@ -786,6 +1236,60 @@ rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.s: rosidl_type
 rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.cpp.s
+
+rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.o: rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o
+
+rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.i: rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.i
+
+rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.s: rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.s
+
+rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.o: rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.o
+
+rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.i: rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.i
+
+rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.s: rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.o: rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.o
 
@@ -814,6 +1318,60 @@ rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.o: rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.i: rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.s: rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.o: rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.i: rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.s: rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.o: rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.o
@@ -840,6 +1398,60 @@ rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel
 rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.o: rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.i: rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.s: rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.o: rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.i: rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.s: rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.cpp.s
 
 rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.o: rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.o
 
@@ -868,6 +1480,60 @@ rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_sup
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.c.s
 
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.o: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o
+
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.i: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.i
+
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.s: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.s
+
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.o: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.o
+
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.i: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.i
+
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.s: rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.c.s
+
 rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.o: rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.o
@@ -894,6 +1560,60 @@ rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_s
 rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.o: rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.i: rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.s: rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.o: rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.i: rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.s: rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.cpp.s
 
 # Help Target
 help:
@@ -931,6 +1651,12 @@ help:
 	@echo "... rosidl_generator_c/village_interfaces/msg/detail/novel__functions.o"
 	@echo "... rosidl_generator_c/village_interfaces/msg/detail/novel__functions.i"
 	@echo "... rosidl_generator_c/village_interfaces/msg/detail/novel__functions.s"
+	@echo "... rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.o"
+	@echo "... rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.i"
+	@echo "... rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.s"
+	@echo "... rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.o"
+	@echo "... rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.i"
+	@echo "... rosidl_generator_c/village_interfaces/srv/detail/sell_novel__functions.s"
 	@echo "... rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.s"
@@ -946,12 +1672,30 @@ help:
 	@echo "... rosidl_generator_py/village_interfaces/msg/_novel_s.o"
 	@echo "... rosidl_generator_py/village_interfaces/msg/_novel_s.i"
 	@echo "... rosidl_generator_py/village_interfaces/msg/_novel_s.s"
+	@echo "... rosidl_generator_py/village_interfaces/srv/_borrow_money_s.o"
+	@echo "... rosidl_generator_py/village_interfaces/srv/_borrow_money_s.i"
+	@echo "... rosidl_generator_py/village_interfaces/srv/_borrow_money_s.s"
+	@echo "... rosidl_generator_py/village_interfaces/srv/_sell_novel_s.o"
+	@echo "... rosidl_generator_py/village_interfaces/srv/_sell_novel_s.i"
+	@echo "... rosidl_generator_py/village_interfaces/srv/_sell_novel_s.s"
 	@echo "... rosidl_typesupport_c/village_interfaces/msg/novel__type_support.o"
 	@echo "... rosidl_typesupport_c/village_interfaces/msg/novel__type_support.i"
 	@echo "... rosidl_typesupport_c/village_interfaces/msg/novel__type_support.s"
+	@echo "... rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.o"
+	@echo "... rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.i"
+	@echo "... rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.s"
+	@echo "... rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.o"
+	@echo "... rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.i"
+	@echo "... rosidl_typesupport_c/village_interfaces/srv/sell_novel__type_support.s"
 	@echo "... rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.o"
 	@echo "... rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.i"
 	@echo "... rosidl_typesupport_connext_c/village_interfaces/msg/dds_connext/novel__type_support_c.s"
+	@echo "... rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.o"
+	@echo "... rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.i"
+	@echo "... rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/borrow_money__type_support_c.s"
+	@echo "... rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.o"
+	@echo "... rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.i"
+	@echo "... rosidl_typesupport_connext_c/village_interfaces/srv/dds_connext/sell_novel__type_support_c.s"
 	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.o"
 	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.i"
 	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_.s"
@@ -964,21 +1708,75 @@ help:
 	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.o"
 	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.i"
 	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/novel__type_support.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/borrow_money__type_support.s"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.o"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.i"
+	@echo "... rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/sell_novel__type_support.s"
 	@echo "... rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.o"
 	@echo "... rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.i"
 	@echo "... rosidl_typesupport_cpp/village_interfaces/msg/novel__type_support.s"
+	@echo "... rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.o"
+	@echo "... rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.i"
+	@echo "... rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.s"
+	@echo "... rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.o"
+	@echo "... rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.i"
+	@echo "... rosidl_typesupport_cpp/village_interfaces/srv/sell_novel__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/novel__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/sell_novel__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/novel__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/sell_novel__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/village_interfaces/msg/detail/novel__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/village_interfaces/srv/detail/sell_novel__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/novel__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/sell_novel__type_support.s"
 .PHONY : help
 
 

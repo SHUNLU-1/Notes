@@ -6,6 +6,11 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/village_interfaces/msg/__init__.py"
   "../rosidl_generator_py/village_interfaces/msg/_novel.py"
   "../rosidl_generator_py/village_interfaces/msg/_novel_s.c"
+  "../rosidl_generator_py/village_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/village_interfaces/srv/_borrow_money.py"
+  "../rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c"
+  "../rosidl_generator_py/village_interfaces/srv/_sell_novel.py"
+  "../rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c"
   "CMakeFiles/village_interfaces__py"
 )
 

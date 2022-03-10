@@ -58,8 +58,13 @@ village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/vi
 village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c
 village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/msg/_novel.py
+village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_borrow_money.py
+village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_sell_novel.py
 village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/msg/__init__.py
+village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/srv/__init__.py
 village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/msg/_novel_s.c
+village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c
+village_interfaces__py/CMakeFiles/village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c
 
 
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -76,6 +81,8 @@ rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesuppo
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: rosidl_adapter/village_interfaces/msg/Novel.idl
+rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: rosidl_adapter/village_interfaces/srv/BorrowMoney.idl
+rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: rosidl_adapter/village_interfaces/srv/SellNovel.idl
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: /opt/ros/foxy/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: /opt/ros/foxy/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c: /opt/ros/foxy/share/sensor_msgs/msg/ChannelFloat32.idl
@@ -180,11 +187,26 @@ rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesuppo
 rosidl_generator_py/village_interfaces/msg/_novel.py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/msg/_novel.py
 
+rosidl_generator_py/village_interfaces/srv/_borrow_money.py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/srv/_borrow_money.py
+
+rosidl_generator_py/village_interfaces/srv/_sell_novel.py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/srv/_sell_novel.py
+
 rosidl_generator_py/village_interfaces/msg/__init__.py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/msg/__init__.py
 
+rosidl_generator_py/village_interfaces/srv/__init__.py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/srv/__init__.py
+
 rosidl_generator_py/village_interfaces/msg/_novel_s.c: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/msg/_novel_s.c
+
+rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c
+
+rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c
 
 village_interfaces__py: village_interfaces__py/CMakeFiles/village_interfaces__py
 village_interfaces__py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_connext_c.c
@@ -192,8 +214,13 @@ village_interfaces__py: rosidl_generator_py/village_interfaces/_village_interfac
 village_interfaces__py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 village_interfaces__py: rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c
 village_interfaces__py: rosidl_generator_py/village_interfaces/msg/_novel.py
+village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_borrow_money.py
+village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_sell_novel.py
 village_interfaces__py: rosidl_generator_py/village_interfaces/msg/__init__.py
+village_interfaces__py: rosidl_generator_py/village_interfaces/srv/__init__.py
 village_interfaces__py: rosidl_generator_py/village_interfaces/msg/_novel_s.c
+village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c
+village_interfaces__py: rosidl_generator_py/village_interfaces/srv/_sell_novel_s.c
 village_interfaces__py: village_interfaces__py/CMakeFiles/village_interfaces__py.dir/build.make
 
 .PHONY : village_interfaces__py

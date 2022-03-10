@@ -14,3 +14,15 @@ CXX_INCLUDES = -I/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_inte
 
 # Custom flags: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/msg/dds_connext/Novel_Support.cxx.o_FLAGS = -Wno-strict-aliasing -Wno-unused-parameter
 
+# Custom flags: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_.cxx.o_FLAGS = -Wno-strict-aliasing -Wno-unused-parameter
+
+# Custom flags: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Plugin.cxx.o_FLAGS = -Wno-strict-aliasing -Wno-unused-parameter
+
+# Custom flags: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/BorrowMoney_Support.cxx.o_FLAGS = -Wno-strict-aliasing -Wno-unused-parameter
+
+# Custom flags: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_.cxx.o_FLAGS = -Wno-strict-aliasing -Wno-unused-parameter
+
+# Custom flags: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Plugin.cxx.o_FLAGS = -Wno-strict-aliasing -Wno-unused-parameter
+
+# Custom flags: CMakeFiles/village_interfaces__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/village_interfaces/srv/dds_connext/SellNovel_Support.cxx.o_FLAGS = -Wno-strict-aliasing -Wno-unused-parameter
+

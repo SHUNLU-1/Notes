@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/village_interfaces__dds_connext_idl"
   "rosidl_generator_dds_idl/village_interfaces/msg/dds_connext/Novel_.idl"
+  "rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/BorrowMoney_.idl"
+  "rosidl_generator_dds_idl/village_interfaces/srv/dds_connext/SellNovel_.idl"
 )
 
 # Per-language clean rules from dependency scanning.

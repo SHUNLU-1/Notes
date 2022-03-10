@@ -80,17 +80,16 @@ wang2_node_EXTERNAL_OBJECTS =
 wang2_node: CMakeFiles/wang2_node.dir/src/wang2.cpp.o
 wang2_node: CMakeFiles/wang2_node.dir/build.make
 wang2_node: /opt/ros/foxy/lib/librclcpp.so
+wang2_node: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+wang2_node: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+wang2_node: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+wang2_node: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
 wang2_node: /opt/ros/foxy/lib/liblibstatistics_collector.so
 wang2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 wang2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
 wang2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
 wang2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
 wang2_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 wang2_node: /opt/ros/foxy/lib/librcl.so
 wang2_node: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 wang2_node: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
@@ -113,6 +112,23 @@ wang2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
 wang2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 wang2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 wang2_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+wang2_node: /opt/ros/foxy/lib/libtracetools.so
+wang2_node: /home/amber/code/Notes/Ros/ros_learn/town_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+wang2_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+wang2_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
+wang2_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
+wang2_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+wang2_node: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+wang2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+wang2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+wang2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+wang2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+wang2_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+wang2_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 wang2_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 wang2_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 wang2_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -125,7 +141,6 @@ wang2_node: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 wang2_node: /opt/ros/foxy/lib/librcpputils.so
 wang2_node: /opt/ros/foxy/lib/librosidl_runtime_c.so
 wang2_node: /opt/ros/foxy/lib/librcutils.so
-wang2_node: /opt/ros/foxy/lib/libtracetools.so
 wang2_node: CMakeFiles/wang2_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_wang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable wang2_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wang2_node.dir/link.txt --verbose=$(VERBOSE)

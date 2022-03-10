@@ -3,7 +3,9 @@
   "output_dir": "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_generator_dds_idl/village_interfaces",
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource",
   "idl_tuples": [
-    "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl"
+    "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:msg/Novel.idl",
+    "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:srv/BorrowMoney.idl",
+    "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces:srv/SellNovel.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/foxy/share/sensor_msgs/msg/BatteryState.idl",
@@ -104,6 +106,8 @@
     "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource/msg.idl.em",
     "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource/srv.idl.em",
     "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces/msg/Novel.idl",
+    "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces/srv/BorrowMoney.idl",
+    "/home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_interfaces/rosidl_adapter/village_interfaces/srv/SellNovel.idl",
     "/opt/ros/foxy/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/foxy/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/foxy/share/sensor_msgs/msg/ChannelFloat32.idl",

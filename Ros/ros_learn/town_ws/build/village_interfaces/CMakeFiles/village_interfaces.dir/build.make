@@ -54,6 +54,12 @@ CMAKE_BINARY_DIR = /home/amber/code/Notes/Ros/ros_learn/town_ws/build/village_in
 include CMakeFiles/village_interfaces.dir/progress.make
 
 CMakeFiles/village_interfaces: /home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces/msg/Novel.msg
+CMakeFiles/village_interfaces: /home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces/srv/BorrowMoney.srv
+CMakeFiles/village_interfaces: rosidl_cmake/srv/BorrowMoney_Request.msg
+CMakeFiles/village_interfaces: rosidl_cmake/srv/BorrowMoney_Response.msg
+CMakeFiles/village_interfaces: /home/amber/code/Notes/Ros/ros_learn/town_ws/src/village_interfaces/srv/SellNovel.srv
+CMakeFiles/village_interfaces: rosidl_cmake/srv/SellNovel_Request.msg
+CMakeFiles/village_interfaces: rosidl_cmake/srv/SellNovel_Response.msg
 CMakeFiles/village_interfaces: /opt/ros/foxy/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/village_interfaces: /opt/ros/foxy/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/village_interfaces: /opt/ros/foxy/share/sensor_msgs/msg/ChannelFloat32.idl
