@@ -42,6 +42,7 @@ ros2 topic echo /turtle1/cmd_vel
 ```
 输入之后可能暂时看不到任何内容，这是因为我们还没有发布数据，在运行键盘控制节点的终端中点击键盘，很快就可以看到数据啦：  
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/b65141d3a66119e808-06-10-29-04.png)
+
 原来键盘控制节点将点击的键盘按键变成了线速度和角速度，通过话题发送给海龟仿真器，海龟才动起来的。  
 ### 5.ros2 topic info
 类似查看节点的详细信息一样，我们也可以用如下命令查看话题的详细信息：
@@ -62,6 +63,7 @@ ros2 topic list -t
 ros2 interface show geometry_msgs/msg/Twist
 ```
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/21cde1cdc05a388008-06-10-29-04.png)
+
 原来Twist中包含了两个三维向量，分别表示线速度和角速度。  
 
 ### 7.ros2 topic pub
@@ -73,6 +75,7 @@ ros2 topic pub <topic_name> <msg_type> '<args>'
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/449d8196f2568d0408-06-10-29-04.png)
 
 小海龟也会动起来啦：
+
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/9ae60bfa3f369f4808-06-10-29-04.png)
 
 如果希望小海龟一直运动，那就得以某个频率持续发布：
@@ -104,6 +107,7 @@ ros2 run turtlesim turtle_teleop_key
 ## 2.查看服务列表
 在小海龟背后，有哪些服务呢？可以使用“ros2 service list”命令来查看一下：  
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/264c5303dfaa9ed908-10-10-16-20.png)
+
 在列表中可以看到每个节点都有6个以“parameters”结尾的服务，在ROS2中，几乎每一个节点都会有这几个服务，主要是用来设置一些参数的，算是节点的默认服务配置，这里我们暂时忽略这些默认的服务，主要看其他几个海龟仿真器提供的功能性质的服务.
 
 ## 3.ros2服务类型
@@ -116,12 +120,15 @@ ros2 service type <service_name>
 ros2 service type /clear
 ```
 看到的服务数据结构是这样的：
+
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/612bdfff629a984f08-10-10-16-20.png)
+
 Empty类型表示服务请求部分的数据是没有的，发送请求的时候不需要任何数据。  
 
 ### 3.1 ros2 service list -t
 类似查看所有节点的话题消息类型，也可以用类似的方式查看所有服务的数据类型，需要在list命令后边加上“--show-types”配置，或者简写为“-t”。  
-![]{https://www.guyuehome.com/Uploads/wp/2020/08/99f72292802c0d8908-10-10-16-20.png}
+
+![](https://www.guyuehome.com/Uploads/wp/2020/08/99f72292802c0d8908-10-10-16-20.png)
 
 ## 4.查找提供某类型数据的所有服务
 
@@ -145,6 +152,7 @@ ros2 interface show <type_name>.srv
 ros2 interface show std_srvs/srv/Empty.srv
 ```
 终端中会显示：
+
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/a0791d090091e13c08-10-10-16-20.png)
 
 这里的“---”在服务的数据结构中是用来分割请求和应答两个部分的数据，这里只所以只有“---”，是应为Empty的请求和应答都不需要任何数据描述，类似一个出发信号。   我们来看另外一个服务的数据类型Spawn，之前已经根据list命令看到该服务的数据类型是 turtlesim/srv/Spawn：
@@ -175,6 +183,7 @@ ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}
 
 海龟仿真器中立刻就可以看到一只新的海龟啦：  
 ![](https://www.guyuehome.com/Uploads/wp/2020/08/f450f63de37ad2d708-10-10-16-20.png)
+
 请求数据中的x、y、theta表示海龟的横纵坐标和旋转角度，name表示新生海龟的名字。   好啦，这就是ROS2中的服务概念啦，简而言之，客户端发送请求，服务端完成处理后反馈应答，通信只会交互一次数据，不像话题是周期发送数据的。  
 
 
