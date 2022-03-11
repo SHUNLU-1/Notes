@@ -39,6 +39,9 @@ ament_target_dependencies(wang2_node
   village_interfaces
 )
 
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME})
+
 install(TARGETS
   wang2_node
   DESTINATION lib/${PROJECT_NAME}
