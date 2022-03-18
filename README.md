@@ -26,9 +26,10 @@
 + [如何熟练的使用 git 上传代码到 github](https://github.com/SHUNLU-1/Notes/tree/main/others/git)
 + [vscode_config](https://github.com/SHUNLU-1/Notes/tree/main/others/learn_vscode_config/C_Single)
 + [vpn](https://github.com/SHUNLU-1/Notes/tree/main/others/vpn)
-
++ [intel-realsense-demo](https://github.com/SHUNLU-1/Notes/tree/main/others/intel-realsense_learn)
 ## python
 - [python-learn](https://github.com/SHUNLU-1/Notes/tree/main/python)
 - [matplotlib](https://github.com/SHUNLU-1/Notes/tree/main/python/matplotlib)
+- [numpy-note](https://github.com/SHUNLU-1/Notes/tree/main/python/Learn_Numpy)
 ## ROS
 + [ROS-leaen](https://github.com/SHUNLU-1/Notes/tree/main/Ros)
