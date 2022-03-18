@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",         //windows mac 修改相对相应的操作系统    
+            "includePath": [         // 头文件添加
+                "${workspaceFolder}/**",// 本工程文件下第一级目录下文件
+                "/usr/include",         // 系统目录下头文件
+                "/usr/local/include/librealsense2",   // opencv头文件 依据个人路径
+                "/usr/local/include/opencv4",
+                "/usr/local/include/opencv4/opencv2/**"
+            ],
+            "defines": [            // 与处理器的定义 解析文件时要使用的 IntelliSense 引擎的预处理器定义列表
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "/usr/bin/cpp",// 编译器完整路径 (取决于你用的哪个编译器,例如gcc,g++,clang等)
+            "cStandard": "c11",            // c对应版本
+            "cppStandard": "c++11",        // c++对应版本
+            "intelliSenseMode": "gcc-x64"  // 智能感知的功能 对应到自己系统的平台(会有默认值)
+        }
+    ],
+    "version": 4
+}
