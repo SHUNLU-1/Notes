@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="482c7b13-10f5-429f-bcb4-9271ded1467b" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1piyPXu990OhCoNnBj2HfrRMhCF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.plane优化">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plane优化" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pythonwork6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plane优化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="planeindex" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pythonwork6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/planeindex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pythonwork6" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+      <module name="pythonwork6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pythonwork6" />
+      <item itemvalue="Python.planeindex" />
+      <item itemvalue="Python.plane优化" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plane优化" />
+        <item itemvalue="Python.planeindex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="482c7b13-10f5-429f-bcb4-9271ded1467b" name="默认的" comment="" />
+      <created>1615680181344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615680181344</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1858" y="107" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615681737681">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="1858" y="107" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615681737681" />
+    <state x="2183" y="207" width="424" height="484" key="FileChooserDialogImpl" timestamp="1615681733839">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="2183" y="207" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615681733839" />
+    <state width="1546" height="215" key="GridCell.Tab.0.bottom" timestamp="1615727417866">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615727417865" />
+    <state width="1546" height="215" key="GridCell.Tab.0.center" timestamp="1615727417865">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615727417865" />
+    <state width="1546" height="215" key="GridCell.Tab.0.left" timestamp="1615727417865">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615727417865" />
+    <state width="1546" height="215" key="GridCell.Tab.0.right" timestamp="1615727417865">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615727417865" />
+    <state width="1546" height="267" key="GridCell.Tab.1.bottom" timestamp="1615691699281">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.bottom/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615691699281" />
+    <state width="1546" height="267" key="GridCell.Tab.1.center" timestamp="1615691699281">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.center/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615691699281" />
+    <state width="1546" height="267" key="GridCell.Tab.1.left" timestamp="1615691699281">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.left/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615691699281" />
+    <state width="1546" height="267" key="GridCell.Tab.1.right" timestamp="1615691699281">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.right/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615691699281" />
+  </component>
+</project>

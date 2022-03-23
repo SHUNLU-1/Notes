@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6793d253-5d7d-4122-be7f-429b5ef60241" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pgQemI8JiSccmcn3nP8Bka5PRG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonwork6" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.__slots_属性">
+    <configuration name="属性的私有化" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pythonwork5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/属性的私有化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="异常处理" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pythonwork5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/异常处理.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__new__方法" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pythonwork5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__new__方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__slots_属性" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pythonwork5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__slots_属性.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="single 单例模式" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="pythonwork5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/single 单例模式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ubuntu" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+      <module name="pythonwork5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.属性的私有化" />
+      <item itemvalue="Python.__new__方法" />
+      <item itemvalue="Python.__slots_属性" />
+      <item itemvalue="Python.single 单例模式" />
+      <item itemvalue="Python.ubuntu" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__slots_属性" />
+        <item itemvalue="Python.single 单例模式" />
+        <item itemvalue="Python.__new__方法" />
+        <item itemvalue="Python.属性的私有化" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6793d253-5d7d-4122-be7f-429b5ef60241" name="默认的" comment="" />
+      <created>1615602350310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615602350310</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1858" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615602592448">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="1858" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615602592448" />
+    <state x="2105" y="242" width="580" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615602670285">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="2105" y="242" width="580" height="414" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615602670285" />
+    <state x="2183" y="207" width="424" height="484" key="FileChooserDialogImpl" timestamp="1615700407593">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state x="2183" y="207" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615700407593" />
+    <state width="1546" height="215" key="GridCell.Tab.0.bottom" timestamp="1615648209612">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209612" />
+    <state width="1546" height="215" key="GridCell.Tab.0.center" timestamp="1615648209612">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209612" />
+    <state width="1546" height="215" key="GridCell.Tab.0.left" timestamp="1615648209612">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209612" />
+    <state width="1546" height="215" key="GridCell.Tab.0.right" timestamp="1615648209612">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="215" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209612" />
+    <state width="1546" height="267" key="GridCell.Tab.1.bottom" timestamp="1615648209610">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.bottom/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209610" />
+    <state width="1546" height="267" key="GridCell.Tab.1.center" timestamp="1615648209610">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.center/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209610" />
+    <state width="1546" height="267" key="GridCell.Tab.1.left" timestamp="1615648209610">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.left/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209610" />
+    <state width="1546" height="267" key="GridCell.Tab.1.right" timestamp="1615648209610">
+      <screen x="1600" y="0" width="1600" height="900" />
+    </state>
+    <state width="1546" height="267" key="GridCell.Tab.1.right/67.27.1533.873/1600.0.1600.900@1600.0.1600.900" timestamp="1615648209610" />
+  </component>
+</project>
