@@ -1,0 +1,164 @@
+<!-- 09-CSS字体属性之字体系列.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS字体属性之字体系列</title>
+    <style>
+        h2 {
+            font-family: '微软雅黑';
+        }
+        
+        p {
+            /* font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif; */
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>pink的秘密</h2>
+    <p>那一抹众人中最漂亮的颜色,</p>
+    <p>优雅,淡然,又那么心中清澈.</p>
+    <p>前端总是伴随着困难和犯错,</p>
+    <p>静心,坦然,攻克一个又一个.</p>
+    <p>拼死也要克服它,</p>
+    <p>这是pink的秘密也是老师最终的嘱托.</p>
+</body>
+
+</html>
+
+<!-- 10-CSS字体属性之字体大小.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS字体属性之字体大小</title>
+    <style>
+        body {
+            font-size: 16px;
+        }
+        /* 标题标签比较特殊,需要单独指定文字大小 */
+        
+        h2 {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>pink的秘密</h2>
+    <p>那一抹众人中最漂亮的颜色,</p>
+    <p>优雅,淡然,又那么心中清澈.</p>
+    <p>前端总是伴随着困难和犯错,</p>
+    <p>静心,坦然,攻克一个又一个.</p>
+    <p>拼死也要克服它,</p>
+    <p>这是pink的秘密也是老师最终的嘱托.</p>
+</body>
+
+</html>
+
+<!-- 11-CSS字体属性之字体粗细.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS字体属性之字体大小</title>
+    <style>
+        .bold {
+            /* font-weight: bold; */
+            /* 这个700 的后面不要跟单位  等价于 bold 都是加粗的效果 */
+            /* 实际开发中,我们跟提倡使用数字 表示加粗或者变细 */
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-weight: 400;
+            /* font-weight: normal;    */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>pink的秘密</h2>
+    <p>那一抹众人中最漂亮的颜色,</p>
+    <p>优雅,淡然,又那么心中清澈.</p>
+    <p>前端总是伴随着困难和犯错,</p>
+    <p>静心,坦然,攻克一个又一个.</p>
+    <p class="bold">拼死也要克服它,</p>
+    <p>这是pink的秘密也是老师最终的嘱托.</p>
+</body>
+
+</html>
+
+<!-- 12-CSS字体属性之文字样式(风格).html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS字体属性之文字样式(风格)</title>
+    <style>
+        p {
+            font-style: italic;
+        }
+        
+        em {
+            /* 让倾斜的字体不倾斜   就是赶紧脉动回来 */
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <p>同学,上课时候的你</p>
+    <em>下课时候的你</em>
+</body>
+
+</html>
+
+<!-- 13-CSS字体属性之复合属性.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS字体属性之复合属性</title>
+    <style>
+        /* 想要div文字变倾斜 加粗 字号设置为16像素 并且 是微软雅黑 */
+        
+        div {
+            /* font-style: italic;
+           font-weight: 700;
+           font-size: 16px;
+           font-family: 'Microsoft yahei'; */
+            /* 复合属性: 简写的方式  节约代码 */
+            /* font: font-style  font-weight  font-size/line-height  font-family; */
+            /* font: italic 700 16px 'Microsoft yahei'; */
+            font: 20px '黑体';
+        }
+    </style>
+</head>
+
+<body>
+    <div>三生三世十里桃花,一心一意百行代码</div>
+</body>
+
+</html>
