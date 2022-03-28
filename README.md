@@ -11,6 +11,9 @@
 - [minist-Classification](https://github.com/SHUNLU-1/Notes/tree/main/machine_learning/MNIST)
 - [HOG+SVM原理](https://github.com/SHUNLU-1/Notes/tree/main/machine_learning/SVM)
 
+## math
+## memorandum
+- [cheatsheets-ai](https://github.com/SHUNLU-1/Notes/tree/main/memorandum/cheatsheets-ai)
 ## opencv
 + [Electric competition](https://github.com/SHUNLU-1/Notes/tree/main/opencv/Electric_competition)
 + [ORB_Match](https://github.com/SHUNLU-1/Notes/tree/main/opencv/ORB_Match)
@@ -31,5 +34,9 @@
 - [python-learn](https://github.com/SHUNLU-1/Notes/tree/main/python)
 - [matplotlib](https://github.com/SHUNLU-1/Notes/tree/main/python/matplotlib)
 - [numpy-note](https://github.com/SHUNLU-1/Notes/tree/main/python/Learn_Numpy)
-## ROS
+## ros
 + [ROS-leaen](https://github.com/SHUNLU-1/Notes/tree/main/Ros)
+
+## web
++ [CSS](https://github.com/SHUNLU-1/Notes/tree/main/web/CSS)
++ [html](https://github.com/SHUNLU-1/Notes/tree/main/web/html)
