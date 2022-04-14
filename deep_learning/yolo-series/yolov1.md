@@ -64,7 +64,9 @@
 
 其中第一项是边界框中心坐标的误差项， ![](https://www.zhihu.com/equation?tex=1%5E%7Bobj%7D_%7Bij%7D) 指的是第 i 个单元格存在目标，且该单元格中的第 j 个边界框负责预测该目标。第二项是边界框的高与宽的误差项。第三项是包含目标的边界框的置信度误差项。第四项是不包含目标的边界框的置信度误差项。而最后一项是包含目标的单元格的分类误差项， ![](https://www.zhihu.com/equation?tex=1%5E%7Bobj%7D_%7Bi%7D) 指的是第 i 个单元格存在目标。这里特别说一下置信度的target值 ![](https://www.zhihu.com/equation?tex=C_i) ，如果是不存在目标，此时由于 ![](https://www.zhihu.com/equation?tex=Pr%28object%29%3D0)，那么  ![](https://www.zhihu.com/equation?tex=C_i%3D0)。如果存在目标，![](https://www.zhihu.com/equation?tex=Pr%28object%29%3D1) ，此时需要确定 ![](https://www.zhihu.com/equation?tex=%5Ctext%7BIOU%7D%5E%7Btruth%7D_%7Bpred%7D)，当然你希望最好的话，可以将IOU取1，这样 ![](https://www.zhihu.com/equation?tex=C_i%3D1) ，但是在YOLO实现中，使用了一个控制参数rescore（默认为1），当其为1时，IOU不是设置为1，而就是计算truth和pred之间的真实IOU。不过很多复现YOLO的项目还是取 ![](https://www.zhihu.com/equation?tex=C_i%3D1)，这个差异应该不会太影响结果吧。
 
-
+### 2.3 YOLO有两个缺点：
++ 一个缺点在于定位不准确，
++ 另一个缺点在于和基于region proposal的方法相比召回率较低
 
 
 
