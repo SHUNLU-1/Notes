@@ -168,9 +168,10 @@ class Yolo(object):
 		self.width = tf.compat.v1.placeholder(tf.float32,name='img_w')
 		self.height = tf.compat.v1.placeholder(tf.float32,name='img_h')
 
-		'''网络回归[batch,7*7*30]:'''
+		'''网络回归[batch,7*7*30]: 将net中1*1470------>7*7*20 + 7*7*1*2 + 7*7*4*2'''
 		idx1 = self.S*self.S*self.C
 		idx2 = idx1 + self.S*self.S*self.B
+        
 		'''1.类别概率[:,:7*7*20]  20维'''
 		class_probs = tf.reshape(self.predicts[0,:idx1],[self.S,self.S,self.C])
 		'''2.置信度[:,7*7*20:7*7*(20+2)]  2维'''
