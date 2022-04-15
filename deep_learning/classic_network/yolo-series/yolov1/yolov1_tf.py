@@ -1,7 +1,9 @@
 import tensorflow as tf
 import numpy as np
 import cv2
-
+'''
+只有predict代码
+'''
 '''leaky_relu激活函数'''
 def leaky_relu(x,alpha=0.1):
 	return tf.maximum(alpha*x,x)
