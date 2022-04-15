@@ -46,6 +46,7 @@ dropout 图示如下所示：
 
 
 [blog reference](https://zhuanlan.zhihu.com/p/69273192)
+
 [demo reference](https://github.com/kratzert/finetune_alexnet_with_tensorflow)
 
 [AlexNet-pytorch 源码](https://github.com/pytorch/vision/blob/main/torchvision/models/alexnet.py)
