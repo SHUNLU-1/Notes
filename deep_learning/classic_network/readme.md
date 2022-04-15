@@ -1,8 +1,10 @@
 # classic network
 ### one-stage:
+
 +  [ ] yolo-series
-    - [x] yolov1 []()
-    - [x] yolov2
+
+    - [x] [yolov1](https://github.com/SHUNLU-1/Notes/tree/main/deep_learning/classic_network/yolo-series/yolov1)
+    - [x] [yolov2](https://github.com/SHUNLU-1/Notes/tree/main/deep_learning/classic_network/yolo-series/yolov2)
     - [ ] yolov3
     - [ ] yolov4
     - [ ] yolov5
