@@ -3,7 +3,7 @@
 ### 网络结构
 ![](https://pic1.zhimg.com/80/v2-0244c74e98bb2a74142b7dac73a67ae0_1440w.jpg)
 ![](https://pic2.zhimg.com/80/v2-2fb10ed809b6585aef49d16c0db607d9_1440w.jpg)
-
+![](https://img-blog.csdnimg.cn/20200423153803780.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAyMzY1OA==,size_16,color_FFFFFF,t_70)
 ### 本文的主要内容有：
 
 + **使用 ReLU 激活函数加速收敛**

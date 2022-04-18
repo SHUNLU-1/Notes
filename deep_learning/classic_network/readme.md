@@ -19,7 +19,7 @@
 
 ### ImageNet
 - [x] AlexNet
-- [ ] VGG
+- [x] VGG
 - [ ] Googlenet
 - [ ] ResNet
 - [ ] SENet
